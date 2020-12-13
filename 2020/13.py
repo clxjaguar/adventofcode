@@ -38,7 +38,7 @@ def solve2(busesInput):
 
 	start()
 
-	# we make a sorted list of the buses
+	# we make a sorted list of the buses (it's just a bit faster if sorted that way)
 	busesSortedList = list(busesOffsets)
 	busesSortedList.sort(reverse=True)
 
@@ -47,10 +47,10 @@ def solve2(busesInput):
 	t = bus-busesOffsets[bus];
 	inc = bus
 
-	# and we just have to find anothers
+	# and we just have to find the time the next bus is matching
 	while busesSortedList:
 		bus = busesSortedList[0]
-		if (busesOffsets[bus] + t) % bus:
+		if (t + busesOffsets[bus]) % bus:
 			t+=inc;
 		else:
 			inc*=busesSortedList.pop(0)
