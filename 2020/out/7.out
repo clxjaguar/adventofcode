@@ -1,0 +1,860 @@
+{'light red': [('1', 'bright white'), ('2', 'muted yellow')], 'dark orange': [('3', 'bright white'), ('4', 'muted yellow')], 'bright white': [('1', 'shiny gold')], 'muted yellow': [('2', 'shiny gold'), ('9', 'faded blue')], 'shiny gold': [('1', 'dark olive'), ('2', 'vibrant plum')], 'dark olive': [('3', 'faded blue'), ('4', 'dotted black')], 'vibrant plum': [('5', 'faded blue'), ('6', 'dotted black')], 'faded blue': [], 'dotted black': []}
+
+# shiny gold
+    * bright white
+        * light red
+        * dark orange
+    * muted yellow
+        * light red
+        * dark orange
+input/7.input.test part 1: 4 possible containers bags (max levels: 3)
+        {'dark orange', 'bright white', 'muted yellow', 'light red'}
+
+
+# shiny gold
+    * dark olive x 1
+        * faded blue x 3
+        * dotted black x 4
+     8
+    * vibrant plum x 2
+        * faded blue x 5
+        * dotted black x 6
+     12
+ 32
+input/7.input.test part 2: 32 bags inside root bag (max levels: 3)
+{'mirrored gold': [('3', 'light teal')], 'clear gold': [('5', 'light maroon'), ('4', 'pale tomato'), ('5', 'clear blue')], 'dark olive': [('5', 'plaid black'), ('2', 'dim plum'), ('2', 'light cyan')], 'bright white': [('2', 'pale violet'), ('5', 'mirrored orange'), ('3', 'faded beige')], 'posh green': [('4', 'shiny gray')], 'posh lime': [('3', 'muted lavender'), ('1', 'clear magenta'), ('5', 'muted orange'), ('3', 'mirrored cyan')], 'striped turquoise': [('3', 'pale red'), ('4', 'wavy lime'), ('4', 'wavy aqua')], 'pale fuchsia': [('1', 'striped purple')], 'dark magenta': [('4', 'light indigo'), ('1', 'wavy lavender'), ('1', 'clear teal')], 'drab teal': [('5', 'pale bronze')], 'muted aqua': [('4', 'wavy bronze'), ('1', 'pale plum')], 'vibrant brown': [('4', 'dull turquoise')], 'vibrant green': [('5', 'dim violet'), ('2', 'dotted red'), ('2', 'dull indigo')], 'wavy black': [('3', 'posh yellow'), ('5', 'wavy coral')], 'light fuchsia': [('1', 'dull violet'), ('5', 'dim indigo'), ('4', 'plaid red'), ('5', 'dotted bronze')], 'drab bronze': [('5', 'dim tan'), ('4', 'mirrored yellow'), ('5', 'dim indigo')], 'plaid silver': [('4', 'pale orange')], 'wavy red': [('3', 'muted chartreuse'), ('4', 'light silver')], 'light aqua': [('4', 'dark cyan'), ('3', 'shiny aqua'), ('1', 'light olive'), ('3', 'wavy purple')], 'wavy salmon': [('1', 'shiny blue'), ('2', 'bright green'), ('5', 'dark beige')], 'vibrant indigo': [('4', 'drab lime'), ('5', 'plaid turquoise')], 'striped violet': [('3', 'dim violet'), ('3', 'striped purple')], 'dull salmon': [('5', 'vibrant turquoise'), ('5', 'muted black')], 'dark lavender': [('5', 'pale gold'), ('5', 'pale silver')], 'clear lavender': [('1', 'faded turquoise')], 'striped crimson': [('2', 'dull turquoise'), ('1', 'dotted red'), ('5', 'striped yellow')], 'posh chartreuse': [('2', 'wavy lavender'), ('2', 'striped black'), ('5', 'dim blue'), ('5', 'bright fuchsia')], 'clear tomato': [('1', 'mirrored violet'), ('4', 'pale gold'), ('5', 'bright bronze')], 'clear brown': [('3', 'plaid fuchsia')], 'pale aqua': [('3', 'pale indigo'), ('1', 'dark lime'), ('4', 'dim magenta')], 'bright maroon': [('4', 'wavy yellow'), ('4', 'bright tan'), ('2', 'posh indigo'), ('4', 'shiny white')], 'wavy purple': [('1', 'faded beige'), ('2', 'drab salmon'), ('3', 'mirrored yellow')], 'muted salmon': [('5', 'bright olive'), ('2', 'striped white'), ('3', 'dotted coral')], 'dotted maroon': [('4', 'striped brown')], 'wavy turquoise': [('1', 'dim indigo'), ('3', 'clear lavender')], 'muted tomato': [('2', 'wavy turquoise'), ('4', 'pale crimson')], 'faded teal': [('2', 'dotted yellow'), ('4', 'dull olive')], 'dotted blue': [('4', 'striped plum'), ('4', 'striped cyan'), ('2', 'drab bronze')], 'posh teal': [('2', 'vibrant purple'), ('4', 'plaid fuchsia'), ('2', 'light green'), ('3', 'light chartreuse')], 'muted gold': [('1', 'muted green'), ('1', 'vibrant brown'), ('5', 'pale crimson')], 'clear olive': [], 'dotted beige': [('4', 'posh beige'), ('2', 'pale silver')], 'vibrant lavender': [('4', 'dark tomato'), ('5', 'dim black'), ('3', 'dim aqua')], 'wavy maroon': [('1', 'drab turquoise'), ('1', 'shiny indigo')], 'muted magenta': [('4', 'posh indigo'), ('4', 'faded brown')], 'dull tomato': [('1', 'pale green'), ('1', 'plaid gold'), ('5', 'plaid yellow'), ('5', 'mirrored blue')], 'mirrored black': [('5', 'drab crimson')], 'dull green': [('4', 'shiny orange')], 'dark cyan': [('3', 'pale gold')], 'faded black': [('2', 'clear beige'), ('4', 'bright red'), ('1', 'striped black')], 'wavy indigo': [('2', 'pale brown')], 'dim white': [('3', 'clear violet'), ('3', 'vibrant indigo')], 'muted green': [('1', 'bright white')], 'posh coral': [('3', 'shiny purple'), ('2', 'light brown'), ('3', 'pale gray'), ('1', 'dull turquoise')], 'dull white': [('5', 'bright plum'), ('5', 'light green'), ('3', 'plaid purple'), ('1', 'faded white')], 'bright salmon': [('3', 'dull indigo'), ('3', 'muted plum'), ('3', 'muted bronze')], 'dotted green': [('1', 'posh purple')], 'posh salmon': [('1', 'shiny brown'), ('2', 'dark red'), ('3', 'drab gold')], 'pale olive': [('4', 'shiny maroon'), ('3', 'shiny white'), ('2', 'dim lavender')], 'dotted lime': [('4', 'mirrored plum'), ('2', 'dotted blue'), ('3', 'light salmon')], 'dim blue': [('5', 'shiny lime'), ('5', 'wavy cyan'), ('3', 'dotted cyan'), ('5', 'vibrant turquoise')], 'dim gold': [('3', 'wavy lavender'), ('4', 'dark silver'), ('4', 'striped green'), ('4', 'posh plum')], 'drab lime': [('3', 'clear black')], 'dim red': [('1', 'mirrored olive'), ('1', 'plaid violet')], 'posh white': [('3', 'pale indigo'), ('1', 'pale black'), ('5', 'light green'), ('2', 'light maroon')], 'dim brown': [('5', 'dotted black'), ('5', 'dotted red')], 'drab gold': [('4', 'mirrored orange'), ('5', 'drab beige'), ('4', 'pale gold')], 'shiny green': [('5', 'mirrored gray'), ('4', 'pale maroon'), ('1', 'striped coral')], 'clear teal': [('3', 'vibrant crimson'), ('4', 'posh teal'), ('5', 'striped lime'), ('3', 'plaid green')], 'wavy coral': [('3', 'drab beige'), ('2', 'drab magenta')], 'plaid tan': [('4', 'faded yellow'), ('4', 'dull gray'), ('2', 'shiny lime')], 'shiny blue': [('1', 'faded white'), ('5', 'dull turquoise')], 'striped green': [('4', 'dull blue'), ('1', 'muted tan'), ('1', 'wavy lavender'), ('1', 'muted gray')], 'wavy tan': [('4', 'wavy bronze'), ('2', 'pale plum'), ('2', 'plaid indigo'), ('2', 'light lavender')], 'faded violet': [('5', 'dull turquoise'), ('4', 'bright orange'), ('5', 'drab lavender')], 'striped magenta': [('5', 'dotted orange'), ('5', 'wavy red')], 'drab beige': [('4', 'pale gold')], 'shiny coral': [('3', 'mirrored bronze')], 'faded indigo': [('5', 'clear violet'), ('5', 'vibrant fuchsia'), ('5', 'posh violet')], 'muted maroon': [('4', 'wavy coral')], 'pale violet': [('1', 'clear olive'), ('1', 'wavy fuchsia'), ('1', 'dull lime')], 'wavy chartreuse': [('2', 'faded blue')], 'faded purple': [('5', 'clear olive'), ('1', 'wavy orange'), ('2', 'posh beige'), ('1', 'mirrored salmon')], 'dull fuchsia': [('2', 'dark tan')], 'light gold': [('1', 'pale blue'), ('4', 'wavy cyan'), ('1', 'shiny chartreuse')], 'bright tan': [('2', 'shiny brown'), ('4', 'drab gold')], 'plaid fuchsia': [('4', 'shiny gold'), ('1', 'mirrored orange'), ('4', 'dark chartreuse'), ('1', 'faded tomato')], 'striped indigo': [('4', 'clear brown'), ('3', 'wavy silver'), ('1', 'plaid teal'), ('3', 'pale maroon')], 'drab salmon': [('1', 'wavy bronze'), ('2', 'pale violet'), ('5', 'plaid indigo')], 'muted teal': [('1', 'wavy maroon'), ('2', 'pale purple'), ('4', 'clear blue'), ('2', 'bright salmon')], 'clear violet': [('2', 'light chartreuse'), ('1', 'light silver'), ('4', 'dark brown')], 'posh red': [('4', 'light lavender'), ('4', 'plaid brown')], 'muted gray': [('1', 'pale olive')], 'posh black': [('1', 'muted maroon')], 'dotted silver': [('3', 'dull turquoise'), ('4', 'dotted black'), ('3', 'mirrored black')], 'wavy olive': [('3', 'dotted coral'), ('5', 'dim silver')], 'plaid olive': [('3', 'muted plum')], 'dim lavender': [('2', 'pale gold'), ('5', 'mirrored turquoise'), ('1', 'dull lime'), ('1', 'dull beige')], 'dark silver': [('4', 'light silver'), ('1', 'plaid fuchsia')], 'shiny tomato': [('2', 'pale coral'), ('4', 'dim lavender'), ('1', 'dim purple'), ('3', 'wavy magenta')], 'dull purple': [('1', 'shiny maroon')], 'wavy orange': [('2', 'dim black'), ('1', 'wavy aqua'), ('4', 'dull turquoise'), ('3', 'wavy bronze')], 'dim gray': [('2', 'faded bronze'), ('3', 'dull beige'), ('3', 'pale purple'), ('5', 'drab gold')], 'muted yellow': [('4', 'wavy aqua')], 'striped maroon': [('1', 'plaid plum'), ('5', 'dotted chartreuse'), ('3', 'dotted cyan'), ('2', 'bright plum')], 'muted white': [('2', 'dark blue'), ('4', 'posh aqua'), ('5', 'mirrored violet'), ('5', 'posh lavender')], 'wavy cyan': [('3', 'dim black'), ('2', 'striped lime')], 'striped teal': [('2', 'bright blue'), ('1', 'vibrant black')], 'posh olive': [('2', 'dim plum'), ('5', 'shiny turquoise'), ('1', 'vibrant tomato'), ('5', 'bright magenta')], 'dotted crimson': [('2', 'clear gray')], 'clear plum': [('4', 'vibrant teal')], 'vibrant chartreuse': [('4', 'posh bronze'), ('5', 'light purple')], 'vibrant teal': [('3', 'clear blue'), ('4', 'muted tan'), ('2', 'wavy fuchsia')], 'striped beige': [('4', 'faded tomato')], 'muted bronze': [('1', 'clear lavender'), ('4', 'mirrored gray')], 'light lavender': [('2', 'plaid turquoise')], 'dotted white': [('1', 'light yellow'), ('5', 'dull maroon'), ('5', 'posh brown'), ('2', 'clear olive')], 'pale teal': [('4', 'dark aqua'), ('5', 'dull violet')], 'wavy lime': [('2', 'drab red'), ('1', 'clear olive')], 'vibrant black': [('3', 'dim tan')], 'pale coral': [('5', 'dull gold')], 'plaid maroon': [('2', 'light fuchsia')], 'wavy aqua': [('5', 'dark coral'), ('5', 'mirrored orange'), ('3', 'muted aqua')], 'bright blue': [('3', 'faded bronze'), ('1', 'bright red'), ('5', 'mirrored coral')], 'wavy silver': [('1', 'posh olive'), ('1', 'shiny lime'), ('3', 'shiny beige')], 'faded maroon': [('1', 'dull tan')], 'light yellow': [('5', 'light lavender'), ('5', 'pale black'), ('1', 'plaid brown'), ('3', 'pale violet')], 'wavy fuchsia': [], 'pale plum': [('4', 'light teal'), ('2', 'pale black'), ('1', 'pale green'), ('4', 'wavy bronze')], 'drab white': [('3', 'dark tan'), ('5', 'muted orange'), ('5', 'dull violet'), ('1', 'mirrored fuchsia')], 'pale salmon': [('5', 'faded violet'), ('1', 'clear cyan')], 'clear crimson': [('4', 'pale lavender'), ('1', 'dull turquoise'), ('2', 'mirrored blue')], 'posh gray': [('4', 'muted brown'), ('3', 'shiny teal')], 'dark aqua': [('1', 'shiny maroon'), ('5', 'dim brown'), ('4', 'striped maroon'), ('5', 'dim blue')], 'muted red': [('3', 'muted chartreuse'), ('4', 'wavy red'), ('1', 'drab tomato'), ('3', 'shiny yellow')], 'mirrored purple': [('2', 'clear blue'), ('2', 'mirrored lavender'), ('1', 'pale gold'), ('3', 'bright silver')], 'striped yellow': [('4', 'light silver'), ('2', 'dotted red'), ('3', 'mirrored black'), ('2', 'faded tomato')], 'dotted teal': [('1', 'drab bronze'), ('3', 'muted red'), ('5', 'mirrored gray'), ('4', 'bright olive')], 'clear turquoise': [('5', 'dim bronze'), ('3', 'faded silver'), ('1', 'dotted olive')], 'dull lavender': [('5', 'clear olive'), ('1', 'mirrored orange')], 'mirrored indigo': [('3', 'bright fuchsia'), ('3', 'dotted salmon')], 'shiny salmon': [('2', 'bright turquoise'), ('1', 'light plum')], 'plaid red': [('3', 'clear brown'), ('4', 'drab tomato'), ('2', 'plaid indigo')], 'drab black': [('5', 'dull maroon'), ('2', 'dark silver'), ('5', 'bright red'), ('5', 'bright cyan')], 'pale purple': [('5', 'light blue'), ('1', 'dull maroon')], 'plaid crimson': [('2', 'dark turquoise'), ('5', 'mirrored bronze'), ('5', 'dull gold'), ('2', 'posh yellow')], 'striped lime': [('2', 'wavy lime'), ('2', 'shiny teal')], 'plaid yellow': [('5', 'muted chartreuse')], 'dark violet': [('2', 'plaid fuchsia'), ('2', 'muted bronze'), ('3', 'posh green')], 'bright red': [('4', 'faded plum'), ('3', 'dim lavender')], 'striped purple': [('3', 'mirrored turquoise'), ('1', 'shiny yellow')], 'shiny red': [('4', 'wavy coral'), ('3', 'vibrant salmon')], 'striped cyan': [('2', 'dark yellow')], 'posh magenta': [('3', 'vibrant indigo'), ('2', 'pale violet'), ('3', 'bright fuchsia'), ('1', 'shiny teal')], 'drab cyan': [('3', 'plaid gold'), ('3', 'clear black'), ('5', 'striped green')], 'dim chartreuse': [('2', 'wavy coral'), ('2', 'striped black'), ('4', 'dotted tomato'), ('1', 'muted maroon')], 'faded beige': [('5', 'dim tomato'), ('3', 'plaid turquoise')], 'mirrored teal': [('4', 'posh silver'), ('3', 'dotted brown')], 'light turquoise': [('2', 'bright gray')], 'drab fuchsia': [('4', 'shiny brown'), ('1', 'muted olive')], 'mirrored bronze': [('3', 'dull turquoise'), ('3', 'mirrored turquoise'), ('2', 'drab red')], 'shiny fuchsia': [('3', 'striped gray'), ('3', 'faded blue')], 'dim beige': [('4', 'dark blue'), ('1', 'vibrant aqua'), ('2', 'shiny brown'), ('5', 'dull violet')], 'drab gray': [('1', 'wavy maroon')], 'drab orange': [('5', 'plaid brown'), ('1', 'vibrant yellow'), ('1', 'mirrored beige'), ('4', 'pale white')], 'dull magenta': [('4', 'light purple'), ('3', 'dark brown')], 'vibrant magenta': [('4', 'clear gray'), ('2', 'shiny aqua'), ('4', 'striped yellow'), ('3', 'shiny magenta')], 'drab tomato': [('5', 'drab crimson'), ('2', 'dull gold'), ('4', 'light silver')], 'wavy violet': [('3', 'faded plum')], 'mirrored fuchsia': [('1', 'mirrored black')], 'shiny white': [('4', 'light silver'), ('3', 'dotted fuchsia'), ('2', 'faded brown'), ('1', 'bright bronze')], 'clear chartreuse': [('4', 'plaid cyan'), ('1', 'striped gold')], 'muted turquoise': [('3', 'drab crimson'), ('3', 'drab olive')], 'faded aqua': [('1', 'dotted teal')], 'vibrant gold': [('2', 'light green'), ('1', 'dotted gold')], 'drab plum': [('5', 'dim salmon'), ('3', 'dotted teal')], 'dotted chartreuse': [('2', 'dull turquoise'), ('1', 'bright chartreuse'), ('4', 'faded tan'), ('1', 'mirrored lavender')], 'dull silver': [('1', 'mirrored indigo')], 'pale yellow': [('4', 'drab coral')], 'clear black': [('3', 'dim coral')], 'faded gold': [('3', 'faded chartreuse'), ('1', 'posh gray'), ('3', 'drab tomato')], 'muted chartreuse': [('1', 'clear olive')], 'shiny indigo': [('3', 'vibrant yellow'), ('2', 'plaid orange')], 'dull indigo': [('5', 'bright fuchsia'), ('2', 'shiny yellow'), ('2', 'plaid indigo'), ('4', 'bright olive')], 'faded silver': [('2', 'vibrant olive'), ('4', 'muted tomato')], 'pale green': [('1', 'pale red'), ('5', 'dull lavender'), ('4', 'clear olive')], 'dull violet': [('1', 'shiny black'), ('1', 'shiny fuchsia'), ('3', 'plaid indigo'), ('2', 'posh crimson')], 'dotted lavender': [('2', 'striped lavender')], 'clear orange': [('1', 'dotted cyan'), ('4', 'clear tomato')], 'bright crimson': [('1', 'dull black'), ('2', 'dim tomato'), ('1', 'drab bronze'), ('4', 'wavy orange')], 'dark orange': [('1', 'vibrant teal'), ('3', 'dull maroon'), ('4', 'light purple')], 'bright teal': [('5', 'mirrored tomato'), ('4', 'dull lime'), ('4', 'shiny olive')], 'vibrant beige': [('2', 'dark turquoise')], 'dark yellow': [('5', 'dark orange'), ('4', 'pale red'), ('2', 'striped fuchsia'), ('5', 'faded turquoise')], 'bright fuchsia': [('5', 'striped gray'), ('3', 'light teal'), ('5', 'mirrored orange')], 'clear maroon': [('2', 'dotted yellow'), ('1', 'mirrored green'), ('4', 'dotted coral'), ('3', 'dull indigo')], 'dim lime': [('3', 'dull fuchsia')], 'striped olive': [('5', 'wavy fuchsia'), ('2', 'light purple')], 'dull gray': [('4', 'dark beige'), ('1', 'mirrored white')], 'dim orange': [('5', 'mirrored white')], 'faded salmon': [('2', 'muted cyan')], 'clear red': [('2', 'dim violet'), ('1', 'shiny purple'), ('3', 'faded salmon'), ('2', 'mirrored brown')], 'plaid white': [('1', 'shiny aqua'), ('1', 'vibrant teal')], 'shiny violet': [('3', 'striped lime'), ('5', 'mirrored chartreuse'), ('3', 'pale red'), ('1', 'muted orange')], 'wavy green': [('2', 'dark tomato')], 'pale lavender': [('3', 'pale orange')], 'dark fuchsia': [('4', 'pale turquoise'), ('4', 'pale plum'), ('5', 'light purple'), ('3', 'dark beige')], 'posh indigo': [('2', 'pale violet'), ('5', 'shiny coral'), ('1', 'faded chartreuse'), ('2', 'plaid indigo')], 'light brown': [('1', 'posh black'), ('4', 'clear cyan')], 'faded red': [('1', 'drab maroon')], 'dark bronze': [('1', 'pale green'), ('4', 'shiny blue'), ('1', 'mirrored lime')], 'pale orange': [('4', 'plaid violet'), ('5', 'dim silver'), ('1', 'dim cyan'), ('3', 'clear blue')], 'dull brown': [('1', 'light tomato'), ('4', 'pale tomato')], 'mirrored plum': [('1', 'shiny tan'), ('5', 'wavy brown')], 'dull lime': [('4', 'mirrored orange')], 'drab yellow': [('3', 'clear teal'), ('3', 'posh aqua'), ('4', 'posh fuchsia'), ('3', 'posh turquoise')], 'bright cyan': [('5', 'muted lavender'), ('1', 'wavy purple')], 'drab chartreuse': [('1', 'wavy tan')], 'drab tan': [('5', 'drab bronze'), ('5', 'pale green'), ('1', 'wavy fuchsia')], 'shiny tan': [('1', 'pale red'), ('5', 'clear aqua')], 'dotted black': [('2', 'dim black')], 'dull blue': [('3', 'clear blue'), ('5', 'bright gold'), ('4', 'pale tomato'), ('4', 'drab beige')], 'light olive': [('2', 'mirrored salmon'), ('2', 'drab violet'), ('2', 'bright beige')], 'mirrored magenta': [('4', 'drab tomato'), ('5', 'clear teal'), ('3', 'dark coral'), ('5', 'shiny white')], 'bright silver': [('1', 'posh brown')], 'vibrant blue': [('3', 'clear tan')], 'dark indigo': [('3', 'dim aqua'), ('5', 'bright aqua')], 'bright brown': [('3', 'muted purple'), ('1', 'muted blue'), ('1', 'light green'), ('1', 'dark red')], 'dark salmon': [('3', 'dotted fuchsia'), ('2', 'dim tan')], 'mirrored maroon': [('2', 'posh purple')], 'faded crimson': [('1', 'posh white'), ('2', 'muted blue'), ('3', 'dark fuchsia'), ('3', 'light red')], 'bright lavender': [('4', 'bright chartreuse'), ('5', 'muted purple'), ('4', 'dull aqua'), ('1', 'shiny blue')], 'mirrored orange': [], 'wavy bronze': [], 'wavy yellow': [('2', 'mirrored yellow'), ('1', 'muted maroon'), ('2', 'striped purple'), ('4', 'pale silver')], 'drab magenta': [('3', 'dim indigo'), ('2', 'wavy bronze'), ('5', 'shiny yellow')], 'wavy blue': [('3', 'mirrored gold'), ('3', 'shiny lavender'), ('1', 'dim teal'), ('4', 'clear crimson')], 'clear purple': [('2', 'dark beige')], 'light cyan': [('1', 'dotted white'), ('5', 'muted yellow'), ('1', 'wavy lime')], 'clear yellow': [('2', 'plaid olive'), ('1', 'muted red'), ('1', 'mirrored bronze'), ('5', 'striped violet')], 'light plum': [('5', 'dotted fuchsia'), ('4', 'vibrant white'), ('5', 'muted red'), ('5', 'drab red')], 'vibrant fuchsia': [('1', 'posh green')], 'pale maroon': [('5', 'light purple'), ('5', 'shiny aqua'), ('3', 'clear teal'), ('2', 'clear green')], 'dark teal': [('2', 'dark lavender'), ('4', 'striped black'), ('1', 'drab lime'), ('2', 'dim teal')], 'clear fuchsia': [('2', 'shiny violet'), ('4', 'posh aqua'), ('4', 'bright red')], 'dotted magenta': [('2', 'dull olive'), ('1', 'clear magenta'), ('5', 'light beige'), ('1', 'dark brown')], 'muted black': [('2', 'clear blue'), ('2', 'muted red')], 'dim magenta': [('4', 'plaid silver'), ('4', 'plaid olive')], 'striped lavender': [('4', 'clear blue')], 'dull beige': [], 'wavy lavender': [('2', 'shiny blue'), ('3', 'faded tomato'), ('5', 'dotted tan'), ('5', 'dull maroon')], 'light maroon': [('5', 'dim violet'), ('3', 'wavy turquoise'), ('3', 'mirrored salmon')], 'plaid green': [('1', 'dim teal'), ('5', 'pale brown'), ('2', 'striped chartreuse')], 'shiny plum': [('1', 'posh lavender'), ('3', 'vibrant red'), ('5', 'dark maroon'), ('1', 'dotted bronze')], 'plaid turquoise': [('4', 'light silver')], 'dim cyan': [('1', 'shiny coral'), ('4', 'bright lime')], 'shiny lime': [('3', 'wavy green'), ('5', 'posh white'), ('1', 'striped purple')], 'dim maroon': [('1', 'muted crimson')], 'dim aqua': [('1', 'dotted silver'), ('3', 'faded blue'), ('4', 'striped purple')], 'muted blue': [('2', 'posh yellow'), ('3', 'bright tan'), ('1', 'vibrant salmon')], 'vibrant olive': [('5', 'clear aqua')], 'plaid black': [('3', 'striped orange')], 'vibrant violet': [('2', 'pale gold')], 'light bronze': [('1', 'shiny maroon'), ('3', 'light blue')], 'pale magenta': [('5', 'pale tomato')], 'vibrant yellow': [('4', 'striped gray'), ('4', 'dotted yellow'), ('1', 'wavy fuchsia'), ('3', 'wavy purple')], 'shiny black': [('5', 'shiny yellow'), ('3', 'light purple'), ('1', 'pale olive'), ('1', 'clear blue')], 'dim crimson': [('5', 'posh gray'), ('1', 'bright chartreuse')], 'plaid salmon': [('2', 'wavy fuchsia'), ('1', 'posh olive'), ('2', 'dim tan')], 'shiny cyan': [('5', 'light green'), ('1', 'clear olive'), ('5', 'pale olive')], 'pale silver': [('3', 'mirrored orange'), ('1', 'light lavender'), ('2', 'faded tomato'), ('1', 'muted chartreuse')], 'light red': [('4', 'shiny gray'), ('4', 'wavy salmon'), ('4', 'clear lime')], 'dark turquoise': [('4', 'mirrored orange'), ('4', 'vibrant brown'), ('4', 'striped brown'), ('4', 'mirrored purple')], 'dark gray': [('1', 'pale violet'), ('5', 'striped turquoise'), ('2', 'wavy red'), ('2', 'light bronze')], 'pale gray': [('5', 'drab tan'), ('3', 'clear gray')], 'striped gold': [('2', 'dotted beige')], 'muted cyan': [('2', 'light bronze'), ('3', 'clear green')], 'faded white': [('3', 'striped tomato'), ('4', 'shiny black'), ('2', 'drab tomato')], 'clear lime': [('3', 'dotted fuchsia'), ('3', 'vibrant purple'), ('1', 'shiny bronze'), ('3', 'muted green')], 'dull bronze': [('5', 'plaid turquoise'), ('4', 'dark crimson'), ('3', 'pale yellow'), ('3', 'posh chartreuse')], 'mirrored cyan': [('4', 'clear olive'), ('2', 'vibrant purple'), ('4', 'dull olive')], 'pale bronze': [('3', 'vibrant purple'), ('4', 'dotted silver'), ('2', 'mirrored black')], 'pale blue': [('1', 'dark brown'), ('2', 'light brown'), ('2', 'drab lime')], 'clear bronze': [('4', 'clear blue'), ('2', 'light chartreuse'), ('1', 'pale violet')], 'clear aqua': [('2', 'clear cyan')], 'plaid plum': [('3', 'faded plum')], 'mirrored lime': [('4', 'posh brown')], 'plaid lavender': [('1', 'bright beige'), ('5', 'bright lime'), ('4', 'faded aqua')], 'drab crimson': [('2', 'shiny yellow'), ('1', 'posh brown')], 'shiny beige': [('2', 'muted aqua'), ('1', 'vibrant purple'), ('4', 'pale black'), ('3', 'dark chartreuse')], 'dim green': [('4', 'bright yellow'), ('1', 'shiny fuchsia'), ('1', 'wavy tomato'), ('4', 'shiny black')], 'drab coral': [('5', 'dark coral')], 'posh turquoise': [('1', 'dim violet'), ('2', 'faded turquoise')], 'dotted plum': [('2', 'dull salmon'), ('5', 'light green'), ('3', 'pale red'), ('2', 'posh yellow')], 'posh yellow': [('1', 'mirrored salmon'), ('1', 'drab tomato'), ('3', 'dark tomato'), ('2', 'dark chartreuse')], 'faded orange': [('1', 'drab yellow')], 'dull teal': [('2', 'plaid crimson'), ('5', 'shiny violet'), ('1', 'dull coral')], 'faded brown': [('5', 'muted red')], 'bright chartreuse': [('5', 'clear lime')], 'mirrored tan': [('4', 'striped lavender'), ('4', 'light plum')], 'clear indigo': [('5', 'plaid fuchsia'), ('2', 'plaid brown'), ('5', 'striped gray')], 'light teal': [('1', 'dull beige'), ('1', 'mirrored turquoise'), ('1', 'mirrored orange'), ('5', 'wavy bronze')], 'shiny gold': [('2', 'dark coral'), ('1', 'mirrored orange')], 'striped white': [('5', 'dull fuchsia')], 'wavy white': [('5', 'dull chartreuse'), ('5', 'wavy green')], 'mirrored beige': [('4', 'bright white'), ('5', 'plaid magenta'), ('3', 'plaid crimson'), ('1', 'shiny teal')], 'muted purple': [('5', 'pale black'), ('5', 'wavy aqua')], 'vibrant crimson': [('5', 'dim bronze'), ('2', 'vibrant plum')], 'striped aqua': [('3', 'plaid cyan'), ('3', 'light beige'), ('2', 'drab cyan')], 'dull crimson': [('1', 'light white'), ('3', 'drab indigo'), ('1', 'clear fuchsia')], 'clear magenta': [('4', 'light brown')], 'posh maroon': [('1', 'faded plum'), ('3', 'light olive')], 'bright violet': [('2', 'dotted bronze'), ('4', 'clear teal'), ('3', 'striped magenta'), ('3', 'muted indigo')], 'faded coral': [('5', 'dark violet'), ('3', 'plaid teal')], 'faded bronze': [('5', 'dotted fuchsia'), ('5', 'wavy bronze'), ('2', 'dotted purple'), ('5', 'dim black')], 'light beige': [('2', 'shiny olive')], 'mirrored white': [('1', 'dark indigo'), ('1', 'drab maroon'), ('3', 'shiny beige'), ('5', 'light blue')], 'muted silver': [('4', 'wavy lime'), ('1', 'dark tomato'), ('1', 'bright fuchsia'), ('4', 'dotted olive')], 'wavy gray': [('2', 'mirrored turquoise'), ('5', 'light lavender'), ('3', 'muted chartreuse')], 'clear salmon': [('5', 'bright tomato'), ('2', 'wavy aqua')], 'dull turquoise': [('1', 'pale tomato')], 'shiny yellow': [('4', 'dull lime'), ('3', 'shiny maroon'), ('3', 'light silver')], 'mirrored aqua': [('3', 'posh magenta'), ('4', 'drab tomato')], 'dull orange': [('5', 'dim teal'), ('3', 'light olive'), ('2', 'light magenta'), ('2', 'plaid orange')], 'plaid blue': [('3', 'pale purple'), ('1', 'shiny turquoise')], 'dim olive': [('3', 'shiny tomato'), ('4', 'dim black'), ('1', 'light plum')], 'dim fuchsia': [('1', 'dark chartreuse'), ('1', 'mirrored cyan'), ('3', 'plaid red')], 'dark plum': [('1', 'light yellow'), ('1', 'mirrored lime'), ('2', 'bright salmon')], 'faded tomato': [('2', 'muted chartreuse'), ('4', 'dark chartreuse')], 'dotted aqua': [('2', 'dull lavender'), ('4', 'pale tomato')], 'plaid lime': [('3', 'vibrant indigo'), ('1', 'muted red'), ('1', 'posh silver'), ('1', 'dim indigo')], 'vibrant lime': [('5', 'drab turquoise'), ('2', 'vibrant chartreuse'), ('4', 'clear blue')], 'posh brown': [('2', 'wavy red'), ('2', 'drab beige')], 'bright beige': [('3', 'faded blue'), ('4', 'muted red'), ('5', 'mirrored lavender'), ('2', 'pale red')], 'dotted yellow': [('5', 'striped gray'), ('3', 'pale gold'), ('2', 'clear olive'), ('5', 'mirrored yellow')], 'dull gold': [('5', 'clear tomato'), ('5', 'drab beige'), ('4', 'bright silver'), ('4', 'drab crimson')], 'dark maroon': [('2', 'wavy turquoise'), ('4', 'dark chartreuse')], 'drab olive': [('4', 'faded bronze')], 'posh plum': [('2', 'dull tan')], 'light indigo': [('2', 'wavy yellow')], 'vibrant tan': [('5', 'shiny teal')], 'dim purple': [('5', 'light olive'), ('5', 'mirrored violet')], 'vibrant gray': [('3', 'bright turquoise'), ('4', 'dim maroon'), ('4', 'vibrant chartreuse'), ('2', 'faded turquoise')], 'pale tan': [('2', 'light salmon'), ('3', 'dotted silver'), ('5', 'clear lime'), ('1', 'shiny teal')], 'dark tan': [('5', 'dim indigo'), ('3', 'shiny beige'), ('5', 'dim tan'), ('2', 'pale black')], 'dotted tomato': [('3', 'shiny black'), ('3', 'pale crimson'), ('2', 'dim tan')], 'posh violet': [('4', 'posh crimson'), ('1', 'muted fuchsia'), ('4', 'pale cyan'), ('3', 'mirrored gold')], 'clear tan': [('2', 'bright tan'), ('5', 'faded beige')], 'bright bronze': [], 'dotted brown': [('2', 'dotted black'), ('3', 'wavy coral')], 'muted violet': [('3', 'faded magenta'), ('3', 'bright magenta')], 'faded plum': [('2', 'dull lime'), ('4', 'dim coral'), ('5', 'shiny maroon'), ('3', 'pale red')], 'dark lime': [('4', 'dim tomato')], 'dull aqua': [('4', 'drab beige'), ('4', 'drab maroon')], 'posh purple': [('2', 'vibrant purple'), ('5', 'shiny gold'), ('2', 'plaid turquoise')], 'dull plum': [('5', 'dark brown'), ('4', 'muted black'), ('1', 'striped lavender')], 'faded turquoise': [('3', 'shiny yellow'), ('4', 'faded plum'), ('5', 'pale violet'), ('4', 'dim lavender')], 'striped bronze': [('1', 'muted bronze'), ('4', 'clear green'), ('4', 'shiny fuchsia'), ('5', 'pale red')], 'mirrored blue': [('4', 'clear tomato'), ('5', 'shiny orange'), ('1', 'dull beige'), ('1', 'striped silver')], 'shiny orange': [('2', 'light bronze'), ('4', 'dark tomato'), ('2', 'drab gold')], 'shiny gray': [('1', 'dark maroon')], 'drab red': [('5', 'wavy purple')], 'posh fuchsia': [('3', 'mirrored chartreuse'), ('3', 'vibrant teal')], 'light crimson': [('2', 'shiny aqua'), ('2', 'plaid chartreuse'), ('1', 'shiny gold'), ('1', 'wavy maroon')], 'vibrant white': [('1', 'shiny brown'), ('5', 'light purple'), ('4', 'dull olive'), ('5', 'clear cyan')], 'dark green': [('5', 'drab indigo'), ('1', 'striped coral')], 'striped fuchsia': [('5', 'vibrant plum')], 'bright turquoise': [('1', 'striped fuchsia'), ('3', 'posh purple'), ('5', 'dim aqua')], 'striped tan': [('1', 'dotted cyan')], 'shiny magenta': [('2', 'dark yellow'), ('1', 'faded silver'), ('4', 'muted orange'), ('3', 'bright fuchsia')], 'dim violet': [('4', 'wavy bronze'), ('1', 'bright bronze')], 'vibrant orange': [('2', 'faded chartreuse'), ('2', 'vibrant turquoise'), ('2', 'dull white')], 'pale gold': [('5', 'light lavender'), ('4', 'mirrored orange'), ('4', 'muted chartreuse')], 'pale red': [], 'plaid brown': [('3', 'mirrored orange')], 'posh aqua': [('5', 'light blue'), ('1', 'dark indigo'), ('1', 'pale red'), ('2', 'vibrant turquoise')], 'muted lime': [('1', 'dim chartreuse'), ('1', 'dotted olive'), ('4', 'pale violet'), ('3', 'muted fuchsia')], 'dotted fuchsia': [('4', 'light teal'), ('1', 'muted chartreuse'), ('3', 'dark chartreuse'), ('4', 'dim lavender')], 'dim turquoise': [('4', 'clear beige'), ('1', 'posh magenta'), ('3', 'faded brown')], 'muted coral': [('4', 'dark salmon'), ('1', 'pale tomato'), ('2', 'shiny brown')], 'dull chartreuse': [('3', 'shiny white'), ('4', 'shiny blue'), ('1', 'pale crimson')], 'muted indigo': [('4', 'posh silver'), ('1', 'pale maroon'), ('1', 'dotted red'), ('1', 'drab coral')], 'dim salmon': [('5', 'pale black'), ('3', 'dark salmon'), ('3', 'pale red'), ('5', 'dotted purple')], 'dotted bronze': [('1', 'dim aqua'), ('2', 'mirrored maroon'), ('4', 'muted olive'), ('3', 'dull fuchsia')], 'drab silver': [('2', 'dim coral'), ('3', 'dim salmon')], 'striped salmon': [('2', 'dotted purple'), ('2', 'posh green'), ('3', 'plaid beige')], 'mirrored tomato': [('5', 'faded tomato'), ('4', 'wavy red')], 'dotted cyan': [('1', 'posh white'), ('3', 'striped lime'), ('4', 'dotted purple'), ('2', 'muted red')], 'striped blue': [('4', 'dark silver'), ('4', 'pale silver')], 'faded green': [('3', 'dotted violet'), ('3', 'pale turquoise')], 'striped gray': [('2', 'pale tomato'), ('2', 'dark chartreuse'), ('5', 'muted red'), ('3', 'pale violet')], 'pale lime': [('4', 'posh maroon'), ('2', 'drab plum'), ('3', 'drab coral')], 'posh beige': [('4', 'wavy purple'), ('2', 'shiny gold'), ('1', 'dark tan')], 'dotted tan': [('2', 'bright silver'), ('1', 'posh bronze'), ('2', 'dim coral'), ('2', 'dim tomato')], 'shiny brown': [('4', 'dim violet'), ('5', 'bright silver')], 'mirrored silver': [('1', 'striped blue'), ('2', 'shiny teal'), ('2', 'light coral'), ('1', 'dim beige')], 'clear silver': [('4', 'mirrored fuchsia'), ('5', 'dull olive'), ('1', 'plaid crimson')], 'dotted orange': [('1', 'mirrored turquoise'), ('3', 'wavy lime'), ('3', 'dotted yellow'), ('5', 'muted lavender')], 'shiny purple': [('1', 'shiny beige'), ('3', 'plaid chartreuse')], 'drab brown': [('2', 'dull indigo'), ('3', 'mirrored cyan'), ('1', 'dim crimson')], 'vibrant tomato': [('5', 'faded plum')], 'light tan': [('1', 'dark gold'), ('3', 'light salmon')], 'vibrant cyan': [('4', 'shiny aqua')], 'dotted purple': [('4', 'wavy coral')], 'vibrant red': [('4', 'faded tan'), ('1', 'drab aqua'), ('4', 'striped black')], 'faded lime': [('3', 'light olive'), ('3', 'striped yellow')], 'posh gold': [('1', 'dull indigo'), ('1', 'mirrored chartreuse')], 'shiny aqua': [('2', 'vibrant turquoise')], 'light orange': [('3', 'vibrant violet'), ('2', 'dotted yellow'), ('1', 'dark gray'), ('5', 'striped chartreuse')], 'pale black': [('1', 'plaid brown'), ('2', 'muted chartreuse')], 'drab violet': [('5', 'clear cyan'), ('1', 'pale gold'), ('4', 'drab salmon'), ('2', 'posh orange')], 'dim silver': [('5', 'clear cyan')], 'muted beige': [('1', 'dim tomato'), ('3', 'light olive')], 'drab turquoise': [('3', 'plaid orange'), ('1', 'light purple')], 'dark red': [('2', 'vibrant yellow'), ('4', 'mirrored fuchsia'), ('5', 'posh bronze'), ('2', 'dark gold')], 'vibrant maroon': [('5', 'drab beige'), ('1', 'dark beige'), ('1', 'dark brown'), ('4', 'pale maroon')], 'wavy magenta': [('3', 'light tomato'), ('5', 'muted gold'), ('3', 'muted cyan')], 'shiny chartreuse': [('5', 'pale yellow')], 'dull cyan': [('4', 'bright maroon'), ('4', 'faded bronze')], 'light black': [('4', 'shiny teal'), ('5', 'faded beige'), ('1', 'muted gold'), ('4', 'plaid silver')], 'bright green': [('5', 'striped lime'), ('4', 'muted yellow'), ('4', 'light beige'), ('4', 'plaid violet')], 'striped orange': [('1', 'mirrored orange'), ('2', 'bright salmon')], 'muted plum': [('3', 'mirrored orange'), ('1', 'muted chartreuse'), ('2', 'dull olive'), ('4', 'dull brown')], 'pale white': [('5', 'light silver')], 'mirrored gray': [('1', 'mirrored violet'), ('5', 'striped gray'), ('5', 'dim aqua'), ('4', 'wavy fuchsia')], 'wavy beige': [('2', 'shiny beige')], 'dotted red': [('4', 'dotted purple'), ('3', 'muted aqua'), ('2', 'pale tomato'), ('4', 'pale bronze')], 'posh lavender': [('2', 'dotted tomato'), ('3', 'dim lavender'), ('2', 'muted gray'), ('3', 'light plum')], 'mirrored yellow': [('4', 'wavy gold')], 'wavy brown': [('3', 'dim fuchsia'), ('4', 'dull turquoise')], 'plaid chartreuse': [('5', 'plaid red')], 'shiny turquoise': [('2', 'faded turquoise'), ('3', 'muted tan')], 'mirrored brown': [('4', 'dotted fuchsia'), ('4', 'dim red'), ('2', 'dotted plum')], 'dim tan': [('1', 'drab tomato'), ('3', 'wavy red'), ('1', 'plaid turquoise'), ('2', 'clear lavender')], 'faded yellow': [('1', 'clear bronze'), ('3', 'clear olive')], 'bright orange': [('5', 'mirrored blue'), ('3', 'shiny blue')], 'striped red': [('5', 'bright green'), ('3', 'wavy yellow')], 'bright indigo': [('2', 'light maroon'), ('5', 'shiny bronze'), ('2', 'bright white')], 'light gray': [('2', 'dotted maroon')], 'light silver': [], 'bright gold': [('2', 'striped fuchsia')], 'drab purple': [('5', 'light silver'), ('2', 'dull yellow'), ('2', 'shiny teal')], 'mirrored coral': [('4', 'dim plum')], 'light coral': [('3', 'dim lavender'), ('5', 'wavy green'), ('2', 'light bronze')], 'plaid indigo': [('3', 'mirrored orange'), ('5', 'pale gold')], 'dark crimson': [('4', 'dark turquoise'), ('4', 'plaid green'), ('4', 'clear fuchsia')], 'wavy teal': [('1', 'pale silver'), ('4', 'mirrored chartreuse'), ('4', 'shiny black')], 'dull tan': [('4', 'muted magenta')], 'light violet': [('4', 'faded yellow'), ('5', 'light maroon'), ('3', 'clear teal'), ('2', 'pale crimson')], 'striped silver': [('3', 'plaid fuchsia')], 'shiny crimson': [('5', 'muted yellow')], 'mirrored salmon': [('1', 'dim tan')], 'dotted coral': [('5', 'dark tan')], 'wavy gold': [('2', 'wavy turquoise'), ('4', 'dim indigo'), ('3', 'wavy bronze')], 'vibrant bronze': [('1', 'pale purple')], 'posh silver': [('4', 'posh chartreuse'), ('3', 'bright salmon'), ('1', 'dotted bronze'), ('3', 'shiny coral')], 'bright purple': [('5', 'clear beige'), ('3', 'pale yellow'), ('1', 'wavy tomato'), ('5', 'pale lavender')], 'muted tan': [('4', 'bright white'), ('5', 'dotted silver'), ('2', 'clear blue'), ('4', 'mirrored turquoise')], 'light white': [('2', 'shiny purple'), ('1', 'dull aqua'), ('2', 'vibrant blue')], 'faded fuchsia': [('2', 'dark green'), ('3', 'shiny violet'), ('4', 'drab plum'), ('3', 'vibrant olive')], 'clear gray': [('2', 'muted red')], 'dark tomato': [('4', 'dotted purple'), ('3', 'faded turquoise')], 'light magenta': [('1', 'dull fuchsia')], 'light purple': [('3', 'drab magenta'), ('4', 'dark coral'), ('3', 'light silver')], 'vibrant turquoise': [('4', 'dotted black')], 'dim indigo': [('4', 'muted chartreuse')], 'dim bronze': [('3', 'drab gold'), ('4', 'clear brown'), ('2', 'muted tan')], 'clear green': [('2', 'plaid fuchsia'), ('1', 'wavy bronze')], 'dull maroon': [('2', 'wavy yellow'), ('1', 'dotted fuchsia'), ('4', 'mirrored yellow')], 'dotted gray': [('5', 'dotted white'), ('2', 'pale tomato'), ('5', 'bright tan'), ('3', 'plaid turquoise')], 'plaid gray': [('5', 'wavy lime'), ('4', 'dull aqua')], 'mirrored crimson': [('1', 'shiny lavender'), ('4', 'plaid purple')], 'shiny silver': [('5', 'vibrant lavender'), ('3', 'light coral'), ('5', 'dark aqua')], 'dotted salmon': [('3', 'pale tomato')], 'muted crimson': [('4', 'clear olive'), ('3', 'dull plum'), ('1', 'dark gray'), ('1', 'wavy lime')], 'muted lavender': [('1', 'bright chartreuse'), ('3', 'pale yellow'), ('3', 'pale crimson')], 'posh tan': [('4', 'faded tomato'), ('3', 'dotted olive'), ('4', 'striped maroon')], 'vibrant salmon': [('4', 'vibrant indigo'), ('1', 'plaid orange')], 'faded chartreuse': [('2', 'mirrored orange'), ('1', 'pale crimson')], 'striped tomato': [('3', 'dim tan'), ('2', 'wavy gold')], 'dim yellow': [('1', 'clear purple'), ('1', 'wavy red'), ('1', 'drab bronze')], 'wavy tomato': [('5', 'dotted tomato'), ('3', 'dim salmon'), ('5', 'light tan'), ('3', 'dull brown')], 'bright lime': [('3', 'mirrored turquoise'), ('3', 'dotted tan'), ('3', 'posh black'), ('5', 'wavy gold')], 'muted brown': [('4', 'shiny indigo'), ('4', 'muted tan'), ('3', 'wavy tan')], 'pale cyan': [('1', 'dotted black')], 'drab green': [('1', 'muted cyan')], 'dim teal': [('4', 'faded lavender'), ('2', 'pale violet')], 'drab lavender': [('1', 'pale gold'), ('5', 'vibrant brown'), ('4', 'posh indigo'), ('1', 'plaid olive')], 'dotted turquoise': [('2', 'muted lime'), ('4', 'striped indigo')], 'clear white': [('2', 'bright lime'), ('1', 'mirrored coral')], 'dark purple': [('5', 'wavy crimson'), ('5', 'light olive')], 'light tomato': [('4', 'posh black'), ('1', 'faded blue'), ('5', 'dim black'), ('3', 'dull lime')], 'bright aqua': [('3', 'clear tomato')], 'bright tomato': [('1', 'clear green'), ('3', 'bright gray'), ('3', 'mirrored cyan'), ('5', 'posh chartreuse')], 'dull yellow': [('5', 'wavy purple'), ('3', 'light purple'), ('5', 'clear cyan'), ('2', 'wavy coral')], 'striped coral': [('3', 'mirrored black'), ('5', 'wavy coral'), ('2', 'posh white')], 'shiny bronze': [('2', 'dim tomato'), ('3', 'dull lime')], 'vibrant aqua': [('4', 'dull olive'), ('4', 'mirrored turquoise'), ('1', 'vibrant teal')], 'faded magenta': [('3', 'plaid chartreuse'), ('5', 'plaid white'), ('1', 'drab lime'), ('3', 'mirrored fuchsia')], 'pale beige': [('3', 'wavy gray'), ('5', 'mirrored tomato'), ('1', 'bright beige')], 'pale crimson': [('1', 'pale violet'), ('4', 'pale black'), ('5', 'dim tomato'), ('1', 'mirrored turquoise')], 'dark blue': [('4', 'dark maroon'), ('1', 'faded brown'), ('2', 'wavy red')], 'posh tomato': [('2', 'posh beige'), ('4', 'dark maroon')], 'dim plum': [('2', 'muted crimson'), ('1', 'striped coral'), ('2', 'plaid yellow'), ('5', 'striped violet')], 'dull black': [('3', 'posh tomato'), ('1', 'vibrant yellow'), ('4', 'mirrored salmon'), ('2', 'light green')], 'wavy plum': [('4', 'wavy blue')], 'bright coral': [('4', 'posh gold'), ('2', 'plaid lime'), ('3', 'shiny black'), ('5', 'dim magenta')], 'posh blue': [('2', 'dotted turquoise'), ('2', 'bright olive'), ('2', 'plaid gold')], 'vibrant purple': [('2', 'mirrored orange'), ('4', 'dull lavender'), ('2', 'pale red')], 'dark white': [('4', 'drab lime')], 'wavy crimson': [('2', 'dark salmon'), ('5', 'wavy yellow'), ('2', 'bright bronze'), ('2', 'drab crimson')], 'clear coral': [('4', 'vibrant blue')], 'muted olive': [('3', 'plaid brown'), ('1', 'dim fuchsia'), ('2', 'posh yellow')], 'plaid violet': [('4', 'muted aqua')], 'plaid teal': [('4', 'bright tan'), ('2', 'dark tomato')], 'plaid purple': [('3', 'posh teal')], 'pale turquoise': [('2', 'faded purple'), ('4', 'mirrored maroon'), ('1', 'mirrored salmon')], 'muted fuchsia': [('5', 'bright bronze'), ('4', 'muted gold')], 'bright olive': [('2', 'faded blue'), ('3', 'faded turquoise'), ('5', 'light bronze'), ('3', 'dim tan')], 'bright gray': [('1', 'bright white'), ('2', 'muted orange')], 'light blue': [('1', 'dotted purple'), ('3', 'dim black'), ('3', 'posh purple'), ('2', 'mirrored violet')], 'posh bronze': [('3', 'plaid fuchsia'), ('1', 'drab gold'), ('4', 'mirrored orange'), ('4', 'light teal')], 'faded olive': [('3', 'striped blue'), ('3', 'dim salmon'), ('4', 'pale red'), ('2', 'dull maroon')], 'dull coral': [('2', 'wavy gold'), ('1', 'dark magenta')], 'dull olive': [('3', 'plaid turquoise'), ('3', 'plaid fuchsia'), ('4', 'wavy lime'), ('1', 'dotted black')], 'plaid orange': [('1', 'dark salmon'), ('1', 'striped turquoise')], 'clear blue': [('3', 'dim tan'), ('3', 'muted red'), ('3', 'faded tomato')], 'dark chartreuse': [('4', 'bright bronze'), ('1', 'dim indigo')], 'plaid tomato': [('5', 'shiny turquoise'), ('4', 'clear tan'), ('2', 'dotted bronze'), ('5', 'muted magenta')], 'mirrored green': [('2', 'light silver'), ('3', 'light brown'), ('4', 'vibrant purple'), ('2', 'posh green')], 'drab blue': [('4', 'drab indigo')], 'vibrant silver': [('3', 'striped violet'), ('1', 'striped white'), ('2', 'bright blue')], 'shiny olive': [('3', 'drab tomato')], 'dull red': [('4', 'dim cyan'), ('3', 'wavy lime')], 'vibrant plum': [('3', 'wavy coral'), ('2', 'light lavender')], 'faded cyan': [('1', 'dim brown'), ('5', 'posh indigo')], 'dotted violet': [('1', 'pale tomato'), ('5', 'dim plum')], 'striped brown': [('5', 'dim coral'), ('4', 'clear blue')], 'dotted indigo': [('5', 'clear salmon'), ('4', 'dim bronze')], 'posh cyan': [('2', 'vibrant magenta')], 'clear beige': [('1', 'bright olive')], 'dark black': [('4', 'dull crimson'), ('3', 'plaid green')], 'mirrored lavender': [('5', 'dark silver')], 'bright black': [('4', 'shiny brown'), ('1', 'vibrant crimson'), ('2', 'posh white'), ('3', 'wavy gold')], 'pale indigo': [('5', 'shiny gold'), ('3', 'light bronze'), ('3', 'striped turquoise')], 'plaid cyan': [('1', 'shiny tan'), ('4', 'dark tan'), ('1', 'dull yellow')], 'bright plum': [('1', 'pale chartreuse'), ('3', 'plaid red'), ('1', 'faded beige'), ('1', 'posh gray')], 'drab maroon': [('3', 'dull olive'), ('1', 'pale green'), ('2', 'mirrored turquoise')], 'pale chartreuse': [('4', 'dim tomato')], 'striped black': [('4', 'vibrant turquoise'), ('3', 'faded white'), ('4', 'light plum'), ('1', 'pale black')], 'dotted gold': [('5', 'posh teal'), ('5', 'striped violet')], 'posh orange': [('1', 'clear green')], 'light green': [('5', 'wavy turquoise'), ('2', 'pale red'), ('3', 'dark tomato'), ('3', 'dull turquoise')], 'plaid beige': [('4', 'light silver'), ('4', 'plaid turquoise'), ('5', 'drab purple'), ('4', 'clear lime')], 'mirrored violet': [('2', 'wavy fuchsia'), ('5', 'bright bronze')], 'striped plum': [('2', 'plaid indigo'), ('5', 'bright yellow'), ('1', 'wavy magenta')], 'bright yellow': [('3', 'wavy yellow')], 'drab aqua': [('5', 'dark red'), ('2', 'light gold')], 'plaid bronze': [('1', 'drab magenta')], 'faded tan': [('4', 'shiny aqua'), ('2', 'light chartreuse')], 'drab indigo': [('5', 'dotted beige'), ('3', 'dull lime'), ('1', 'striped violet'), ('4', 'vibrant tan')], 'dark gold': [('4', 'mirrored lime'), ('3', 'dark salmon')], 'muted orange': [('1', 'dull yellow'), ('2', 'shiny brown')], 'plaid gold': [('4', 'drab coral'), ('5', 'shiny cyan')], 'posh crimson': [('3', 'light brown'), ('3', 'bright bronze'), ('3', 'shiny yellow')], 'bright magenta': [('5', 'dim lavender')], 'light chartreuse': [('2', 'drab bronze'), ('3', 'dim coral')], 'dim tomato': [], 'dark beige': [('3', 'mirrored yellow'), ('2', 'dull olive'), ('5', 'striped brown')], 'clear cyan': [('5', 'drab beige'), ('1', 'shiny yellow'), ('5', 'wavy purple'), ('5', 'dark chartreuse')], 'dark coral': [('3', 'dim lavender'), ('3', 'pale green'), ('4', 'mirrored orange'), ('1', 'dim coral')], 'light lime': [('5', 'mirrored brown')], 'shiny lavender': [('5', 'drab tan')], 'faded lavender': [('1', 'light salmon'), ('2', 'dotted purple'), ('5', 'pale gold'), ('3', 'muted gold')], 'pale tomato': [('5', 'dim coral')], 'plaid coral': [('3', 'dull blue'), ('1', 'posh white'), ('3', 'light orange')], 'dim coral': [], 'dotted olive': [('5', 'mirrored green'), ('3', 'drab aqua'), ('2', 'dull beige'), ('3', 'dim indigo')], 'dark brown': [('1', 'muted tan'), ('5', 'wavy lime')], 'mirrored red': [('5', 'vibrant aqua'), ('3', 'bright gray'), ('4', 'striped gray'), ('2', 'light lavender')], 'mirrored olive': [('5', 'dark chartreuse'), ('1', 'dim lavender'), ('5', 'faded plum')], 'dim black': [('1', 'shiny yellow'), ('4', 'plaid indigo')], 'shiny maroon': [('1', 'mirrored orange'), ('1', 'muted chartreuse'), ('5', 'wavy bronze'), ('1', 'dull lavender')], 'pale brown': [('4', 'light teal'), ('1', 'light plum'), ('3', 'bright aqua')], 'striped chartreuse': [('2', 'shiny maroon')], 'mirrored chartreuse': [('4', 'dotted tan'), ('4', 'bright bronze')], 'plaid magenta': [('1', 'vibrant yellow'), ('5', 'wavy aqua'), ('5', 'dull turquoise'), ('2', 'wavy fuchsia')], 'light salmon': [('3', 'muted tan'), ('3', 'faded turquoise'), ('4', 'drab bronze'), ('3', 'bright bronze')], 'faded blue': [('1', 'wavy red'), ('5', 'wavy fuchsia'), ('4', 'bright bronze'), ('3', 'faded turquoise')], 'plaid aqua': [('1', 'pale tan'), ('3', 'light white')], 'mirrored turquoise': [('5', 'drab beige'), ('1', 'faded plum'), ('4', 'mirrored orange')], 'shiny teal': [('2', 'pale black'), ('4', 'dull indigo'), ('4', 'vibrant teal')], 'vibrant coral': [('3', 'drab turquoise'), ('4', 'striped beige'), ('1', 'wavy turquoise'), ('4', 'light crimson')], 'faded gray': [('3', 'striped purple')]}
+
+# shiny gold
+    * plaid fuchsia
+        * clear brown
+            * striped indigo
+                * dotted turquoise
+                    * posh blue
+            * plaid red
+                * light fuchsia
+                    * plaid maroon
+                * dim fuchsia
+                    * wavy brown
+                        * mirrored plum
+                            * dotted lime
+                    * muted olive
+                        * drab fuchsia
+                        * dotted bronze
+                            * light fuchsia
+                                * plaid maroon
+                            * shiny plum
+                            * bright violet
+                            * posh silver
+                                * mirrored teal
+                                * plaid lime
+                                    * bright coral
+                                * muted indigo
+                                    * bright violet
+                            * plaid tomato
+                * plaid chartreuse
+                    * light crimson
+                        * vibrant coral
+                    * shiny purple
+                        * posh coral
+                        * clear red
+                        * light white
+                            * dull crimson
+                                * dark black
+                            * plaid aqua
+                    * faded magenta
+                        * muted violet
+                * bright plum
+                    * dull white
+                        * vibrant orange
+                    * striped maroon
+                        * dark aqua
+                            * pale teal
+                            * shiny silver
+                        * posh tan
+            * dim bronze
+                * clear turquoise
+                * vibrant crimson
+                    * clear teal
+                        * dark magenta
+                            * dull coral
+                                * dull teal
+                        * drab yellow
+                            * faded orange
+                        * mirrored magenta
+                        * pale maroon
+                            * shiny green
+                            * striped indigo
+                                * dotted turquoise
+                                    * posh blue
+                            * muted indigo
+                                * bright violet
+                            * vibrant maroon
+                        * bright violet
+                        * light violet
+                    * bright black
+                * dotted indigo
+        * posh teal
+            * clear teal
+                * dark magenta
+                    * dull coral
+                        * dull teal
+                * drab yellow
+                    * faded orange
+                * mirrored magenta
+                * pale maroon
+                    * shiny green
+                    * striped indigo
+                        * dotted turquoise
+                            * posh blue
+                    * muted indigo
+                        * bright violet
+                    * vibrant maroon
+                * bright violet
+                * light violet
+            * plaid purple
+                * dull white
+                    * vibrant orange
+                * mirrored crimson
+            * dotted gold
+                * vibrant gold
+        * dark silver
+            * dim gold
+            * drab black
+            * striped blue
+                * mirrored silver
+                * faded olive
+            * mirrored lavender
+                * mirrored purple
+                    * dark turquoise
+                        * plaid crimson
+                            * dull teal
+                            * mirrored beige
+                                * drab orange
+                            * clear silver
+                        * vibrant beige
+                        * dark crimson
+                            * dull bronze
+                * dotted chartreuse
+                    * striped maroon
+                        * dark aqua
+                            * pale teal
+                            * shiny silver
+                        * posh tan
+                * bright beige
+                    * light olive
+                        * light aqua
+                        * posh maroon
+                            * pale lime
+                        * dull orange
+                        * dim purple
+                            * shiny tomato
+                                * dim olive
+                        * faded lime
+                        * muted beige
+                        * dark purple
+                    * plaid lavender
+                    * pale beige
+        * dark violet
+            * faded coral
+        * clear indigo
+        * striped silver
+            * mirrored blue
+                * dull tomato
+                * clear crimson
+                    * wavy blue
+                        * wavy plum
+                * bright orange
+                    * faded violet
+                        * pale salmon
+        * clear green
+            * pale maroon
+                * shiny green
+                * striped indigo
+                    * dotted turquoise
+                        * posh blue
+                * muted indigo
+                    * bright violet
+                * vibrant maroon
+            * muted cyan
+                * faded salmon
+                    * clear red
+                * wavy magenta
+                    * shiny tomato
+                        * dim olive
+                    * striped plum
+                        * dotted blue
+                            * dotted lime
+                * drab green
+            * striped bronze
+            * bright tomato
+                * clear salmon
+                    * dotted indigo
+            * posh orange
+                * drab violet
+                    * light olive
+                        * light aqua
+                        * posh maroon
+                            * pale lime
+                        * dull orange
+                        * dim purple
+                            * shiny tomato
+                                * dim olive
+                        * faded lime
+                        * muted beige
+                        * dark purple
+        * posh bronze
+            * vibrant chartreuse
+                * vibrant lime
+                * vibrant gray
+            * dotted tan
+                * wavy lavender
+                    * dark magenta
+                        * dull coral
+                            * dull teal
+                    * posh chartreuse
+                        * dull bronze
+                        * posh silver
+                            * mirrored teal
+                            * plaid lime
+                                * bright coral
+                            * muted indigo
+                                * bright violet
+                        * bright tomato
+                            * clear salmon
+                                * dotted indigo
+                    * dim gold
+                    * striped green
+                        * dim gold
+                        * drab cyan
+                            * striped aqua
+                * bright lime
+                    * dim cyan
+                        * pale orange
+                            * plaid silver
+                                * dim magenta
+                                    * pale aqua
+                                    * bright coral
+                                * light black
+                            * pale lavender
+                                * clear crimson
+                                    * wavy blue
+                                        * wavy plum
+                                * bright purple
+                        * dull red
+                    * plaid lavender
+                    * clear white
+                * mirrored chartreuse
+                    * shiny violet
+                        * clear fuchsia
+                            * dull crimson
+                                * dark black
+                            * dark crimson
+                                * dull bronze
+                        * dull teal
+                        * faded fuchsia
+                    * posh fuchsia
+                        * drab yellow
+                            * faded orange
+                    * posh gold
+                        * bright coral
+                    * wavy teal
+            * dark red
+                * posh salmon
+                * bright brown
+                * drab aqua
+                    * vibrant red
+                        * shiny plum
+                    * dotted olive
+                        * clear turquoise
+                        * muted silver
+                        * muted lime
+                            * dotted turquoise
+                                * posh blue
+                        * posh tan
+        * dull olive
+            * faded teal
+            * dotted magenta
+            * mirrored cyan
+                * posh lime
+                * dim fuchsia
+                    * wavy brown
+                        * mirrored plum
+                            * dotted lime
+                    * muted olive
+                        * drab fuchsia
+                        * dotted bronze
+                            * light fuchsia
+                                * plaid maroon
+                            * shiny plum
+                            * bright violet
+                            * posh silver
+                                * mirrored teal
+                                * plaid lime
+                                    * bright coral
+                                * muted indigo
+                                    * bright violet
+                            * plaid tomato
+                * drab brown
+                * bright tomato
+                    * clear salmon
+                        * dotted indigo
+            * vibrant white
+                * light plum
+                    * shiny salmon
+                    * mirrored tan
+                    * dim olive
+                    * posh lavender
+                        * muted white
+                        * shiny plum
+                    * striped black
+                        * posh chartreuse
+                            * dull bronze
+                            * posh silver
+                                * mirrored teal
+                                * plaid lime
+                                    * bright coral
+                                * muted indigo
+                                    * bright violet
+                            * bright tomato
+                                * clear salmon
+                                    * dotted indigo
+                        * faded black
+                        * dim chartreuse
+                            * muted lime
+                                * dotted turquoise
+                                    * posh blue
+                        * dark teal
+                        * vibrant red
+                            * shiny plum
+                    * pale brown
+                        * wavy indigo
+                        * plaid green
+                            * clear teal
+                                * dark magenta
+                                    * dull coral
+                                        * dull teal
+                                * drab yellow
+                                    * faded orange
+                                * mirrored magenta
+                                * pale maroon
+                                    * shiny green
+                                    * striped indigo
+                                        * dotted turquoise
+                                            * posh blue
+                                    * muted indigo
+                                        * bright violet
+                                    * vibrant maroon
+                                * bright violet
+                                * light violet
+                            * dark crimson
+                                * dull bronze
+                            * dark black
+            * clear silver
+            * muted plum
+                * bright salmon
+                    * muted teal
+                    * dark plum
+                    * striped orange
+                        * plaid black
+                            * dark olive
+                    * posh silver
+                        * mirrored teal
+                        * plaid lime
+                            * bright coral
+                        * muted indigo
+                            * bright violet
+                * plaid olive
+                    * clear yellow
+                    * dim magenta
+                        * pale aqua
+                        * bright coral
+                    * drab lavender
+                        * faded violet
+                            * pale salmon
+            * vibrant aqua
+                * dim beige
+                    * mirrored silver
+                * mirrored red
+            * drab maroon
+                * faded red
+                * mirrored white
+                    * dull gray
+                        * plaid tan
+                    * dim orange
+                * dull aqua
+                    * bright lavender
+                    * light white
+                        * dull crimson
+                            * dark black
+                        * plaid aqua
+                    * plaid gray
+            * dark beige
+                * wavy salmon
+                    * light red
+                        * faded crimson
+                * dull gray
+                    * plaid tan
+                * dark fuchsia
+                    * faded crimson
+                * clear purple
+                    * dim yellow
+                * vibrant maroon
+    * posh purple
+        * dotted green
+        * mirrored maroon
+            * dotted bronze
+                * light fuchsia
+                    * plaid maroon
+                * shiny plum
+                * bright violet
+                * posh silver
+                    * mirrored teal
+                    * plaid lime
+                        * bright coral
+                    * muted indigo
+                        * bright violet
+                * plaid tomato
+            * pale turquoise
+                * dark fuchsia
+                    * faded crimson
+                * faded green
+        * bright turquoise
+            * shiny salmon
+            * vibrant gray
+        * light blue
+            * pale purple
+                * muted teal
+                * dim gray
+                * plaid blue
+                * vibrant bronze
+            * light bronze
+                * dark gray
+                    * light orange
+                        * plaid coral
+                    * muted crimson
+                        * dim maroon
+                            * vibrant gray
+                        * dim plum
+                            * dark olive
+                            * posh olive
+                                * wavy silver
+                                    * striped indigo
+                                        * dotted turquoise
+                                            * posh blue
+                                * plaid salmon
+                            * mirrored coral
+                                * bright blue
+                                    * striped teal
+                                    * vibrant silver
+                                * clear white
+                            * dotted violet
+                                * faded green
+                * muted cyan
+                    * faded salmon
+                        * clear red
+                    * wavy magenta
+                        * shiny tomato
+                            * dim olive
+                        * striped plum
+                            * dotted blue
+                                * dotted lime
+                    * drab green
+                * shiny orange
+                    * dull green
+                    * mirrored blue
+                        * dull tomato
+                        * clear crimson
+                            * wavy blue
+                                * wavy plum
+                        * bright orange
+                            * faded violet
+                                * pale salmon
+                * light coral
+                    * mirrored silver
+                    * shiny silver
+                * bright olive
+                    * muted salmon
+                    * dotted teal
+                        * faded aqua
+                            * plaid lavender
+                        * drab plum
+                            * pale lime
+                            * faded fuchsia
+                    * dull indigo
+                        * vibrant green
+                        * bright salmon
+                            * muted teal
+                            * dark plum
+                            * striped orange
+                                * plaid black
+                                    * dark olive
+                            * posh silver
+                                * mirrored teal
+                                * plaid lime
+                                    * bright coral
+                                * muted indigo
+                                    * bright violet
+                        * clear maroon
+                        * drab brown
+                        * posh gold
+                            * bright coral
+                        * shiny teal
+                            * posh gray
+                                * faded gold
+                                * dim crimson
+                                    * drab brown
+                                * bright plum
+                                    * dull white
+                                        * vibrant orange
+                                    * striped maroon
+                                        * dark aqua
+                                            * pale teal
+                                            * shiny silver
+                                        * posh tan
+                            * striped lime
+                                * clear teal
+                                    * dark magenta
+                                        * dull coral
+                                            * dull teal
+                                    * drab yellow
+                                        * faded orange
+                                    * mirrored magenta
+                                    * pale maroon
+                                        * shiny green
+                                        * striped indigo
+                                            * dotted turquoise
+                                                * posh blue
+                                        * muted indigo
+                                            * bright violet
+                                        * vibrant maroon
+                                    * bright violet
+                                    * light violet
+                                * wavy cyan
+                                    * dim blue
+                                        * posh chartreuse
+                                            * dull bronze
+                                            * posh silver
+                                                * mirrored teal
+                                                * plaid lime
+                                                    * bright coral
+                                                * muted indigo
+                                                    * bright violet
+                                            * bright tomato
+                                                * clear salmon
+                                                    * dotted indigo
+                                        * dark aqua
+                                            * pale teal
+                                            * shiny silver
+                                    * light gold
+                                        * drab aqua
+                                            * vibrant red
+                                                * shiny plum
+                                            * dotted olive
+                                                * clear turquoise
+                                                * muted silver
+                                                * muted lime
+                                                    * dotted turquoise
+                                                        * posh blue
+                                                * posh tan
+                                * shiny violet
+                                    * clear fuchsia
+                                        * dull crimson
+                                            * dark black
+                                        * dark crimson
+                                            * dull bronze
+                                    * dull teal
+                                    * faded fuchsia
+                                * dotted cyan
+                                    * dim blue
+                                        * posh chartreuse
+                                            * dull bronze
+                                            * posh silver
+                                                * mirrored teal
+                                                * plaid lime
+                                                    * bright coral
+                                                * muted indigo
+                                                    * bright violet
+                                            * bright tomato
+                                                * clear salmon
+                                                    * dotted indigo
+                                        * dark aqua
+                                            * pale teal
+                                            * shiny silver
+                                    * striped maroon
+                                        * dark aqua
+                                            * pale teal
+                                            * shiny silver
+                                        * posh tan
+                                    * clear orange
+                                    * striped tan
+                                * bright green
+                                    * wavy salmon
+                                        * light red
+                                            * faded crimson
+                                    * striped red
+                            * posh magenta
+                                * mirrored aqua
+                                * dim turquoise
+                            * mirrored beige
+                                * drab orange
+                            * vibrant tan
+                                * drab indigo
+                                    * dull crimson
+                                        * dark black
+                                    * dark green
+                                        * faded fuchsia
+                                    * drab blue
+                            * pale tan
+                                * plaid aqua
+                            * mirrored silver
+                            * light black
+                            * drab purple
+                                * plaid beige
+                                    * striped salmon
+                    * posh blue
+                    * clear beige
+                        * faded black
+                        * dim turquoise
+                        * bright purple
+                * pale indigo
+                    * pale aqua
+                    * posh white
+                        * faded crimson
+                        * shiny lime
+                            * dim blue
+                                * posh chartreuse
+                                    * dull bronze
+                                    * posh silver
+                                        * mirrored teal
+                                        * plaid lime
+                                            * bright coral
+                                        * muted indigo
+                                            * bright violet
+                                    * bright tomato
+                                        * clear salmon
+                                            * dotted indigo
+                                * dark aqua
+                                    * pale teal
+                                    * shiny silver
+                            * plaid tan
+                            * wavy silver
+                                * striped indigo
+                                    * dotted turquoise
+                                        * posh blue
+                        * dotted cyan
+                            * dim blue
+                                * posh chartreuse
+                                    * dull bronze
+                                    * posh silver
+                                        * mirrored teal
+                                        * plaid lime
+                                            * bright coral
+                                        * muted indigo
+                                            * bright violet
+                                    * bright tomato
+                                        * clear salmon
+                                            * dotted indigo
+                                * dark aqua
+                                    * pale teal
+                                    * shiny silver
+                            * striped maroon
+                                * dark aqua
+                                    * pale teal
+                                    * shiny silver
+                                * posh tan
+                            * clear orange
+                            * striped tan
+                        * striped coral
+                            * shiny green
+                            * dark green
+                                * faded fuchsia
+                            * dim plum
+                                * dark olive
+                                * posh olive
+                                    * wavy silver
+                                        * striped indigo
+                                            * dotted turquoise
+                                                * posh blue
+                                    * plaid salmon
+                                * mirrored coral
+                                    * bright blue
+                                        * striped teal
+                                        * vibrant silver
+                                    * clear white
+                                * dotted violet
+                                    * faded green
+                        * bright black
+                        * plaid coral
+            * mirrored white
+                * dull gray
+                    * plaid tan
+                * dim orange
+            * posh aqua
+                * muted white
+                * drab yellow
+                    * faded orange
+                * clear fuchsia
+                    * dull crimson
+                        * dark black
+                    * dark crimson
+                        * dull bronze
+    * light crimson
+        * vibrant coral
+    * posh beige
+        * dotted beige
+            * striped gold
+                * clear chartreuse
+            * drab indigo
+                * dull crimson
+                    * dark black
+                * dark green
+                    * faded fuchsia
+                * drab blue
+        * faded purple
+            * pale turquoise
+                * dark fuchsia
+                    * faded crimson
+                * faded green
+        * posh tomato
+            * dull black
+                * bright crimson
+    * pale indigo
+        * pale aqua
+        * posh white
+            * faded crimson
+            * shiny lime
+                * dim blue
+                    * posh chartreuse
+                        * dull bronze
+                        * posh silver
+                            * mirrored teal
+                            * plaid lime
+                                * bright coral
+                            * muted indigo
+                                * bright violet
+                        * bright tomato
+                            * clear salmon
+                                * dotted indigo
+                    * dark aqua
+                        * pale teal
+                        * shiny silver
+                * plaid tan
+                * wavy silver
+                    * striped indigo
+                        * dotted turquoise
+                            * posh blue
+            * dotted cyan
+                * dim blue
+                    * posh chartreuse
+                        * dull bronze
+                        * posh silver
+                            * mirrored teal
+                            * plaid lime
+                                * bright coral
+                            * muted indigo
+                                * bright violet
+                        * bright tomato
+                            * clear salmon
+                                * dotted indigo
+                    * dark aqua
+                        * pale teal
+                        * shiny silver
+                * striped maroon
+                    * dark aqua
+                        * pale teal
+                        * shiny silver
+                    * posh tan
+                * clear orange
+                * striped tan
+            * striped coral
+                * shiny green
+                * dark green
+                    * faded fuchsia
+                * dim plum
+                    * dark olive
+                    * posh olive
+                        * wavy silver
+                            * striped indigo
+                                * dotted turquoise
+                                    * posh blue
+                        * plaid salmon
+                    * mirrored coral
+                        * bright blue
+                            * striped teal
+                            * vibrant silver
+                        * clear white
+                    * dotted violet
+                        * faded green
+            * bright black
+            * plaid coral
+input/7.input part 1: 278 possible containers bags (max levels: 15)
+        {'striped black', 'plaid blue', 'plaid lime', 'dim gold', 'mirrored maroon', 'light fuchsia', 'drab brown', 'vibrant aqua', 'pale salmon', 'pale aqua', 'drab maroon', 'striped teal', 'shiny orange', 'wavy brown', 'dull crimson', 'vibrant beige', 'bright black', 'dim orange', 'bright lavender', 'mirrored coral', 'mirrored white', 'plaid green', 'light white', 'shiny silver', 'clear chartreuse', 'mirrored teal', 'mirrored tan', 'dull bronze', 'bright turquoise', 'dull indigo', 'dark turquoise', 'dull coral', 'light crimson', 'drab lavender', 'dotted teal', 'dotted tan', 'pale maroon', 'faded fuchsia', 'plaid silver', 'plaid gray', 'posh teal', 'faded salmon', 'wavy indigo', 'dark magenta', 'bright lime', 'posh blue', 'posh bronze', 'dotted magenta', 'muted olive', 'vibrant maroon', 'shiny salmon', 'vibrant coral', 'shiny violet', 'dotted blue', 'posh fuchsia', 'drab green', 'wavy teal', 'dim chartreuse', 'dull aqua', 'striped indigo', 'faded green', 'mirrored lavender', 'light aqua', 'bright brown', 'dim plum', 'faded aqua', 'striped salmon', 'dotted olive', 'drab purple', 'drab orange', 'faded teal', 'plaid olive', 'wavy magenta', 'muted indigo', 'dim olive', 'vibrant silver', 'mirrored plum', 'dim magenta', 'wavy lavender', 'faded orange', 'posh olive', 'pale brown', 'mirrored cyan', 'vibrant bronze', 'clear fuchsia', 'posh gold', 'pale purple', 'faded lime', 'dull black', 'plaid chartreuse', 'drab aqua', 'bright violet', 'faded magenta', 'dim blue', 'dark violet', 'dotted lime', 'shiny plum', 'posh orange', 'plaid black', 'dotted bronze', 'dull gray', 'bright crimson', 'muted violet', 'mirrored blue', 'light olive', 'light bronze', 'muted crimson', 'vibrant red', 'muted lime', 'shiny tomato', 'faded coral', 'bright salmon', 'clear yellow', 'dull green', 'dim beige', 'striped red', 'dark plum', 'faded crimson', 'wavy salmon', 'posh lavender', 'pale turquoise', 'striped aqua', 'clear orange', 'dim turquoise', 'plaid beige', 'posh tomato', 'dull white', 'clear white', 'bright plum', 'drab yellow', 'posh maroon', 'posh lime', 'mirrored purple', 'muted salmon', 'dark fuchsia', 'clear green', 'faded olive', 'striped silver', 'dotted violet', 'drab fuchsia', 'clear salmon', 'dim maroon', 'striped tan', 'clear crimson', 'dotted chartreuse', 'mirrored crimson', 'dim yellow', 'dark crimson', 'pale indigo', 'dotted gold', 'bright green', 'faded black', 'mirrored chartreuse', 'dim crimson', 'dim bronze', 'dim cyan', 'striped lime', 'striped maroon', 'muted beige', 'wavy plum', 'dim purple', 'plaid aqua', 'striped green', 'mirrored beige', 'drab cyan', 'light red', 'dotted beige', 'shiny purple', 'plaid tomato', 'clear indigo', 'vibrant white', 'plaid coral', 'dim fuchsia', 'mirrored silver', 'drab violet', 'light gold', 'plaid lavender', 'plaid salmon', 'light violet', 'plaid maroon', 'faded red', 'clear red', 'striped blue', 'dark teal', 'light coral', 'clear brown', 'wavy silver', 'mirrored magenta', 'dark purple', 'faded purple', 'dark aqua', 'bright tomato', 'vibrant lime', 'posh silver', 'mirrored aqua', 'wavy cyan', 'pale lavender', 'posh salmon', 'posh coral', 'vibrant crimson', 'dull teal', 'dotted green', 'vibrant tan', 'pale teal', 'posh magenta', 'dark black', 'faded gold', 'plaid fuchsia', 'vibrant gray', 'plaid tan', 'wavy blue', 'dull tomato', 'dull olive', 'bright beige', 'bright coral', 'drab plum', 'dull orange', 'pale orange', 'dark red', 'drab blue', 'bright purple', 'striped orange', 'bright blue', 'muted plum', 'vibrant green', 'posh white', 'clear turquoise', 'muted teal', 'vibrant chartreuse', 'dull red', 'muted white', 'shiny teal', 'clear silver', 'light black', 'dark gray', 'mirrored red', 'plaid crimson', 'dotted cyan', 'dim gray', 'clear teal', 'bright olive', 'pale lime', 'dark beige', 'pale beige', 'drab indigo', 'dotted turquoise', 'bright orange', 'clear purple', 'shiny lime', 'light blue', 'posh tan', 'dark olive', 'dark silver', 'drab black', 'plaid purple', 'striped coral', 'posh chartreuse', 'vibrant gold', 'striped plum', 'muted silver', 'faded violet', 'light plum', 'pale tan', 'vibrant orange', 'clear maroon', 'light orange', 'shiny green', 'posh gray', 'clear beige', 'muted cyan', 'striped gold', 'posh purple', 'posh aqua', 'posh beige', 'dark green', 'striped bronze', 'dotted indigo', 'plaid red'}
+
+
+# shiny gold
+    * dark coral x 2
+        * dim lavender x 3
+            * pale gold x 2
+                * light lavender x 5
+                    * plaid turquoise x 2
+                        * light silver x 4
+                     5
+                 11
+                * mirrored orange x 4
+                * muted chartreuse x 4
+                    * clear olive x 1
+                 2
+             68
+            * mirrored turquoise x 5
+                * drab beige x 5
+                    * pale gold x 4
+                        * light lavender x 5
+                            * plaid turquoise x 2
+                                * light silver x 4
+                             5
+                         11
+                        * mirrored orange x 4
+                        * muted chartreuse x 4
+                            * clear olive x 1
+                         2
+                     68
+                 273
+                * faded plum x 1
+                    * dull lime x 2
+                        * mirrored orange x 4
+                     5
+                    * dim coral x 4
+                    * shiny maroon x 5
+                        * mirrored orange x 1
+                        * muted chartreuse x 1
+                            * clear olive x 1
+                         2
+                        * wavy bronze x 5
+                        * dull lavender x 1
+                            * clear olive x 5
+                            * mirrored orange x 1
+                         7
+                     16
+                    * pale red x 3
+                 98
+                * mirrored orange x 4
+             1468
+            * dull lime x 1
+                * mirrored orange x 4
+             5
+            * dull beige x 1
+         7483
+        * pale green x 3
+            * pale red x 1
+            * dull lavender x 5
+                * clear olive x 5
+                * mirrored orange x 1
+             7
+            * clear olive x 4
+         41
+        * mirrored orange x 4
+        * dim coral x 1
+     22578
+    * mirrored orange x 1
+ 45157
+input/7.input part 2: 45157 bags inside root bag (max levels: 9)
