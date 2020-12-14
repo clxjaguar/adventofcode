@@ -73,8 +73,10 @@ def solve2(filename):
 	print(filename, summedValues)
 	return summedValues
 
-assert solve1("14.input.test") == 165
-assert solve1("14.input") == 12408060320841
+# part 1
+assert solve1("input/14.input.test") == 165
+assert solve1("input/14.input") == 12408060320841
 
-assert solve2("14.input.test2") == 208
-assert solve2("14.input") == 4466434626828
+# part 2
+assert solve2("input/14.input.test2") == 208
+assert solve2("input/14.input") == 4466434626828
