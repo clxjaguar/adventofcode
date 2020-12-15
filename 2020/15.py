@@ -6,28 +6,29 @@ def solve(startingNumbers, nth=2020):
 	utils.start()
 	i = 0
 	spokenNumbers = {}
-	try:
-		while True:
-			i+=1
-			if startingNumbers:
-				number = startingNumbers.pop(0)
-			else:
-				if number not in spokenNumbers:
-					number = 0
-				elif len(spokenNumbers[number]) < 2:
-					number = 0
-				else:
-					number = spokenNumbers[number][-1] - spokenNumbers[number][-2]
+	spokenNumbersBefore = {}
 
-			if number not in spokenNumbers:
-				spokenNumbers[number] = []
-			spokenNumbers[number].append(i)
+	while i < len(startingNumbers):
+		number = startingNumbers[i]; i+=1
+		if number in spokenNumbers:
+			spokenNumbersBefore[number] = spokenNumbers[number]
+		spokenNumbers[number] = i
 
-			if i == nth:
-				print("%d (%.2fms)" % (number, utils.stop()))
-				return number
-	except KeyboardInterrupt:
-		print("Killed at", i)
+	while i != nth:
+		i+=1
+
+		if number in spokenNumbersBefore:
+			number = spokenNumbers[number] - spokenNumbersBefore[number]
+		else:
+			number = 0
+
+		try: spokenNumbersBefore[number] = spokenNumbers[number]
+		except: pass
+
+		spokenNumbers[number] = i
+
+	print("%d (%.2fms)" % (number, utils.stop()))
+	return number
 
 # part 1
 assert solve([0, 3, 6]) == 436
