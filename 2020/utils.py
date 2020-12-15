@@ -1,4 +1,13 @@
 import copy
+import time
+
+def start():
+	global startTime
+	startTime = time.time()
+
+def stop():
+	global startTime
+	return (time.time() - startTime) * 1000
 
 class PuzzleMap():
 	def __init__(self, filename):
