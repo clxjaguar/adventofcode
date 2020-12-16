@@ -1,0 +1,80 @@
+ticketScanningErrorRate=71
+fieldsPositionPossibles: {'class': {0, 1}, 'row': {0}, 'seat': {2}}
+fieldsPosition:
+row: 0 (7)
+class: 1 (1)
+seat: 2 (14)
+
+myTicket: (7, 1, 14)
+ticketScanningErrorRate=0
+fieldsPositionPossibles: {'class': {1, 2}, 'row': {0, 1, 2}, 'seat': {2}}
+fieldsPosition:
+seat: 2 (13)
+class: 1 (12)
+row: 0 (11)
+
+myTicket: (11, 12, 13)
+ticketScanningErrorRate=23011
+fieldsPositionPossibles: {'departure location': {1, 3, 5, 6, 8, 9, 12}, 'departure station': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, 'departure platform': {1, 3, 4, 5, 6, 8, 9, 10, 11, 12}, 'departure track': {1, 3, 5, 6, 8, 9, 11, 12}, 'departure date': {1, 3, 4, 5, 6, 8, 9, 11, 12}, 'departure time': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14}, 'arrival location': {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, 'arrival station': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19}, 'arrival platform': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19}, 'arrival track': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15}, 'class': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, 'duration': {3, 8, 12}, 'price': {8, 12}, 'route': {1, 3, 5, 6, 8, 12}, 'row': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19}, 'seat': {1, 3, 6, 8, 12}, 'train': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 19}, 'type': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19}, 'wagon': {3, 6, 8, 12}, 'zone': {12}}
+fieldsPosition:
+zone: 12 (67)
+price: 8 (191)
+duration: 3 (97)
+wagon: 6 (131)
+seat: 1 (193)
+route: 5 (179)
+departure location: 9 (139)
+departure track: 11 (181)
+departure date: 4 (137)
+departure platform: 10 (197)
+departure station: 7 (73)
+departure time: 14 (211)
+arrival track: 15 (199)
+train: 19 (127)
+type: 13 (71)
+arrival station: 16 (167)
+row: 0 (79)
+arrival platform: 18 (59)
+class: 17 (61)
+arrival location: 2 (53)
+
+myTicket: (79, 193, 53, 97, 137, 179, 131, 73, 191, 139, 197, 181, 67, 71, 211, 199, 167, 61, 59, 127)
+departure location: 139
+departure track: 181
+departure date: 137
+departure platform: 197
+departure station: 73
+departure time: 211
+product: 10458887314153
+ticketScanningErrorRate=23009
+fieldsPositionPossibles: {'departure location': {1, 3, 5, 6, 8, 9, 12}, 'departure station': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, 'departure platform': {1, 3, 4, 5, 6, 8, 9, 10, 11, 12}, 'departure track': {1, 3, 5, 6, 8, 9, 11, 12}, 'departure date': {1, 3, 4, 5, 6, 8, 9, 11, 12}, 'departure time': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14}, 'arrival location': {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, 'arrival station': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19}, 'arrival platform': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19}, 'arrival track': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15}, 'class': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, 'duration': {3, 8, 12}, 'price': {8, 12}, 'route': {1, 3, 5, 6, 8, 12}, 'row': {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19}, 'seat': {1, 3, 6, 8, 12}, 'train': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 19}, 'type': {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19}, 'wagon': {3, 6, 8, 12}, 'zone': {12}}
+fieldsPosition:
+zone: 12 (67)
+price: 8 (191)
+duration: 3 (97)
+wagon: 6 (131)
+seat: 1 (193)
+route: 5 (179)
+departure location: 9 (139)
+departure track: 11 (181)
+departure date: 4 (137)
+departure platform: 10 (197)
+departure station: 7 (73)
+departure time: 14 (211)
+arrival track: 15 (199)
+train: 19 (127)
+type: 13 (71)
+arrival station: 16 (167)
+row: 0 (79)
+arrival platform: 18 (59)
+class: 17 (61)
+arrival location: 2 (53)
+
+myTicket: (79, 193, 53, 97, 137, 179, 131, 73, 191, 139, 197, 181, 67, 71, 211, 199, 167, 61, 59, 127)
+departure location: 139
+departure track: 181
+departure date: 137
+departure platform: 197
+departure station: 73
+departure time: 211
+product: 10458887314153
