@@ -1,3 +1,5 @@
+# cLx 2020 day 20
+
 import numpy
 import copy
 
@@ -148,24 +150,21 @@ def solve(filename, assertPart1=None, assertPart2=None):
 		y = 1;
 		while(y < size):
 			tile = tiles[idx]
-			ok = 0
+			ok = False
 			for idx2 in tiles:
 				if idx2 == idx:
 					continue
 				tile2 = tiles[idx2]
 				for pos2 in range(8):
 					if tile.getBorder(bord=S, pos=pos) == tile2.getBorder(bord=N, pos=pos2):
-						ok+=1
+						ok=True
 						tiles[idx2].coords[pos2] = (x, y)
 						tilesCoords[(x, y)] = (idx2, pos2)
 						pos = pos2
 						idx = idx2
 						break;
 				if ok: break
-			if ok > 1:
-				print("Error: not single solution found:", x, y)
-				exit(-1)
-			if ok == 0:
+			if ok == False:
 				print("Error: border not found")
 				exit(-1)
 			y+=1
@@ -196,17 +195,12 @@ def solve(filename, assertPart1=None, assertPart2=None):
 	for y in range(size):
 		hstack = None
 		for x in range(size):
-			# ~ print(x, y)
 			idx, pos = tilesCoords[(x,y)]
-			# ~ print("%d: %s" % (idx, tiles[idx]))
 			content = tiles[idx].content
 			if pos%4 > 0:
 				content = numpy.rot90(tiles[idx].content, k=-(pos%4))
-				# ~ print("rotate", x, y, "(pos=%d)"%(pos%4))
 			if pos>=4:
 				content = numpy.flip(content, axis=0)
-				# ~ print("flip", x, y)
-			# ~ print(content)
 			if x == 0:
 				hstack = content
 			else:
@@ -232,9 +226,6 @@ def solve(filename, assertPart1=None, assertPart2=None):
 		bigArray2 = numpy.rot90(bigArray2, k=-(gpos%4))
 		if gpos >= 4:
 			bigArray2 = numpy.flip(bigArray2, axis=0)
-
-		# ~ for i in range(size*8):
-			# ~ print("%3d"%i, "".join(bigArray[i]).replace("0", ".").replace("1", "#"))
 
 		print("Global reposition:", gpos)
 		smFounds = 0
@@ -270,9 +261,6 @@ def solve(filename, assertPart1=None, assertPart2=None):
 			print(cnt)
 			if assertPart2:
 				assert cnt == assertPart2
-			# ~ exit()
 
 solve("input/20.input.test", assertPart1=20899048083289, assertPart2=273)
 solve("input/20.input",      assertPart1=4006801655873,  assertPart2=1838)
-# < 2138
-# < 1913
