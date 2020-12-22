@@ -1,0 +1,1254 @@
+**** input/22.input.test ****
+
+-- Round 1 --
+Player 1's deck: 9, 2, 6, 3, 1
+Player 2's deck: 5, 8, 4, 7, 10
+Player 1 plays: 9
+Player 2 plays: 5
+Player 1 wins the round!
+
+-- Round 2 --
+Player 1's deck: 2, 6, 3, 1, 9, 5
+Player 2's deck: 8, 4, 7, 10
+Player 1 plays: 2
+Player 2 plays: 8
+Player 2 wins the round!
+
+-- Round 3 --
+Player 1's deck: 6, 3, 1, 9, 5
+Player 2's deck: 4, 7, 10, 8, 2
+Player 1 plays: 6
+Player 2 plays: 4
+Player 1 wins the round!
+
+-- Round 4 --
+Player 1's deck: 3, 1, 9, 5, 6, 4
+Player 2's deck: 7, 10, 8, 2
+Player 1 plays: 3
+Player 2 plays: 7
+Player 2 wins the round!
+
+-- Round 5 --
+Player 1's deck: 1, 9, 5, 6, 4
+Player 2's deck: 10, 8, 2, 7, 3
+Player 1 plays: 1
+Player 2 plays: 10
+Player 2 wins the round!
+
+-- Round 6 --
+Player 1's deck: 9, 5, 6, 4
+Player 2's deck: 8, 2, 7, 3, 10, 1
+Player 1 plays: 9
+Player 2 plays: 8
+Player 1 wins the round!
+
+-- Round 7 --
+Player 1's deck: 5, 6, 4, 9, 8
+Player 2's deck: 2, 7, 3, 10, 1
+Player 1 plays: 5
+Player 2 plays: 2
+Player 1 wins the round!
+
+-- Round 8 --
+Player 1's deck: 6, 4, 9, 8, 5, 2
+Player 2's deck: 7, 3, 10, 1
+Player 1 plays: 6
+Player 2 plays: 7
+Player 2 wins the round!
+
+-- Round 9 --
+Player 1's deck: 4, 9, 8, 5, 2
+Player 2's deck: 3, 10, 1, 7, 6
+Player 1 plays: 4
+Player 2 plays: 3
+Player 1 wins the round!
+
+-- Round 10 --
+Player 1's deck: 9, 8, 5, 2, 4, 3
+Player 2's deck: 10, 1, 7, 6
+Player 1 plays: 9
+Player 2 plays: 10
+Player 2 wins the round!
+
+-- Round 11 --
+Player 1's deck: 8, 5, 2, 4, 3
+Player 2's deck: 1, 7, 6, 10, 9
+Player 1 plays: 8
+Player 2 plays: 1
+Player 1 wins the round!
+
+-- Round 12 --
+Player 1's deck: 5, 2, 4, 3, 8, 1
+Player 2's deck: 7, 6, 10, 9
+Player 1 plays: 5
+Player 2 plays: 7
+Player 2 wins the round!
+
+-- Round 13 --
+Player 1's deck: 2, 4, 3, 8, 1
+Player 2's deck: 6, 10, 9, 7, 5
+Player 1 plays: 2
+Player 2 plays: 6
+Player 2 wins the round!
+
+-- Round 14 --
+Player 1's deck: 4, 3, 8, 1
+Player 2's deck: 10, 9, 7, 5, 6, 2
+Player 1 plays: 4
+Player 2 plays: 10
+Player 2 wins the round!
+
+-- Round 15 --
+Player 1's deck: 3, 8, 1
+Player 2's deck: 9, 7, 5, 6, 2, 10, 4
+Player 1 plays: 3
+Player 2 plays: 9
+Player 2 wins the round!
+
+-- Round 16 --
+Player 1's deck: 8, 1
+Player 2's deck: 7, 5, 6, 2, 10, 4, 9, 3
+Player 1 plays: 8
+Player 2 plays: 7
+Player 1 wins the round!
+
+-- Round 17 --
+Player 1's deck: 1, 8, 7
+Player 2's deck: 5, 6, 2, 10, 4, 9, 3
+Player 1 plays: 1
+Player 2 plays: 5
+Player 2 wins the round!
+
+-- Round 18 --
+Player 1's deck: 8, 7
+Player 2's deck: 6, 2, 10, 4, 9, 3, 5, 1
+Player 1 plays: 8
+Player 2 plays: 6
+Player 1 wins the round!
+
+-- Round 19 --
+Player 1's deck: 7, 8, 6
+Player 2's deck: 2, 10, 4, 9, 3, 5, 1
+Player 1 plays: 7
+Player 2 plays: 2
+Player 1 wins the round!
+
+-- Round 20 --
+Player 1's deck: 8, 6, 7, 2
+Player 2's deck: 10, 4, 9, 3, 5, 1
+Player 1 plays: 8
+Player 2 plays: 10
+Player 2 wins the round!
+
+-- Round 21 --
+Player 1's deck: 6, 7, 2
+Player 2's deck: 4, 9, 3, 5, 1, 10, 8
+Player 1 plays: 6
+Player 2 plays: 4
+Player 1 wins the round!
+
+-- Round 22 --
+Player 1's deck: 7, 2, 6, 4
+Player 2's deck: 9, 3, 5, 1, 10, 8
+Player 1 plays: 7
+Player 2 plays: 9
+Player 2 wins the round!
+
+-- Round 23 --
+Player 1's deck: 2, 6, 4
+Player 2's deck: 3, 5, 1, 10, 8, 9, 7
+Player 1 plays: 2
+Player 2 plays: 3
+Player 2 wins the round!
+
+-- Round 24 --
+Player 1's deck: 6, 4
+Player 2's deck: 5, 1, 10, 8, 9, 7, 3, 2
+Player 1 plays: 6
+Player 2 plays: 5
+Player 1 wins the round!
+
+-- Round 25 --
+Player 1's deck: 4, 6, 5
+Player 2's deck: 1, 10, 8, 9, 7, 3, 2
+Player 1 plays: 4
+Player 2 plays: 1
+Player 1 wins the round!
+
+-- Round 26 --
+Player 1's deck: 6, 5, 4, 1
+Player 2's deck: 10, 8, 9, 7, 3, 2
+Player 1 plays: 6
+Player 2 plays: 10
+Player 2 wins the round!
+
+-- Round 27 --
+Player 1's deck: 5, 4, 1
+Player 2's deck: 8, 9, 7, 3, 2, 10, 6
+Player 1 plays: 5
+Player 2 plays: 8
+Player 2 wins the round!
+
+-- Round 28 --
+Player 1's deck: 4, 1
+Player 2's deck: 9, 7, 3, 2, 10, 6, 8, 5
+Player 1 plays: 4
+Player 2 plays: 9
+Player 2 wins the round!
+
+-- Round 29 --
+Player 1's deck: 1
+Player 2's deck: 7, 3, 2, 10, 6, 8, 5, 9, 4
+Player 1 plays: 1
+Player 2 plays: 7
+Player 2 wins the round!
+
+== Post-game results ==
+Player 1's deck:
+Player 2's deck: 3, 2, 10, 6, 8, 5, 9, 4, 7, 1
+SCORE: 306
+
+**** input/22.input ****
+
+-- Round 1 --
+Player 1's deck: 30, 42, 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10
+Player 2's deck: 36, 13, 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49
+Player 1 plays: 30
+Player 2 plays: 36
+Player 2 wins the round!
+
+-- Round 2 --
+Player 1's deck: 42, 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10
+Player 2's deck: 13, 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30
+Player 1 plays: 42
+Player 2 plays: 13
+Player 1 wins the round!
+
+-- Round 3 --
+Player 1's deck: 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10, 42, 13
+Player 2's deck: 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30
+Player 1 plays: 25
+Player 2 plays: 46
+Player 2 wins the round!
+
+-- Round 4 --
+Player 1's deck: 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10, 42, 13
+Player 2's deck: 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30, 46, 25
+Player 1 plays: 7
+Player 2 plays: 15
+Player 2 wins the round!
+
+-- Round 5 --
+Player 1's deck: 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10, 42, 13
+Player 2's deck: 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30, 46, 25, 15, 7
+Player 1 plays: 29
+Player 2 plays: 27
+Player 1 wins the round!
+
+...
+
+-- Round 526 --
+Player 1's deck: 25, 24, 50, 20, 41, 6, 47, 30, 45, 28, 42, 27, 26, 5, 40, 8, 37, 4, 39, 33, 49, 19, 36, 7, 34, 32, 43, 17, 38, 3, 16, 15, 11, 9, 48, 31, 35, 23, 46, 21, 29, 18, 22, 13, 44, 2, 14, 1
+Player 2's deck: 12, 10
+Player 1 plays: 25
+Player 2 plays: 12
+Player 1 wins the round!
+
+-- Round 527 --
+Player 1's deck: 24, 50, 20, 41, 6, 47, 30, 45, 28, 42, 27, 26, 5, 40, 8, 37, 4, 39, 33, 49, 19, 36, 7, 34, 32, 43, 17, 38, 3, 16, 15, 11, 9, 48, 31, 35, 23, 46, 21, 29, 18, 22, 13, 44, 2, 14, 1, 25, 12
+Player 2's deck: 10
+Player 1 plays: 24
+Player 2 plays: 10
+Player 1 wins the round!
+
+== Post-game results ==
+Player 1's deck: 50, 20, 41, 6, 47, 30, 45, 28, 42, 27, 26, 5, 40, 8, 37, 4, 39, 33, 49, 19, 36, 7, 34, 32, 43, 17, 38, 3, 16, 15, 11, 9, 48, 31, 35, 23, 46, 21, 29, 18, 22, 13, 44, 2, 14, 1, 25, 12, 24, 10
+Player 2's deck:
+SCORE: 35818
+
+**** input/22.input.test ****
+** Recursive Combat Rules **
+
+=== Game 1 ===
+
+-- Round 1 (Game 1) --
+Player 1's deck: 9, 2, 6, 3, 1
+Player 2's deck: 5, 8, 4, 7, 10
+Player 1 plays: 9
+Player 2 plays: 5
+Player 1 wins round 1 of game 1!
+
+-- Round 2 (Game 1) --
+Player 1's deck: 2, 6, 3, 1, 9, 5
+Player 2's deck: 8, 4, 7, 10
+Player 1 plays: 2
+Player 2 plays: 8
+Player 2 wins round 2 of game 1!
+
+-- Round 3 (Game 1) --
+Player 1's deck: 6, 3, 1, 9, 5
+Player 2's deck: 4, 7, 10, 8, 2
+Player 1 plays: 6
+Player 2 plays: 4
+Player 1 wins round 3 of game 1!
+
+-- Round 4 (Game 1) --
+Player 1's deck: 3, 1, 9, 5, 6, 4
+Player 2's deck: 7, 10, 8, 2
+Player 1 plays: 3
+Player 2 plays: 7
+Player 2 wins round 4 of game 1!
+
+-- Round 5 (Game 1) --
+Player 1's deck: 1, 9, 5, 6, 4
+Player 2's deck: 10, 8, 2, 7, 3
+Player 1 plays: 1
+Player 2 plays: 10
+Player 2 wins round 5 of game 1!
+
+-- Round 6 (Game 1) --
+Player 1's deck: 9, 5, 6, 4
+Player 2's deck: 8, 2, 7, 3, 10, 1
+Player 1 plays: 9
+Player 2 plays: 8
+Player 1 wins round 6 of game 1!
+
+-- Round 7 (Game 1) --
+Player 1's deck: 5, 6, 4, 9, 8
+Player 2's deck: 2, 7, 3, 10, 1
+Player 1 plays: 5
+Player 2 plays: 2
+Player 1 wins round 7 of game 1!
+
+-- Round 8 (Game 1) --
+Player 1's deck: 6, 4, 9, 8, 5, 2
+Player 2's deck: 7, 3, 10, 1
+Player 1 plays: 6
+Player 2 plays: 7
+Player 2 wins round 8 of game 1!
+
+-- Round 9 (Game 1) --
+Player 1's deck: 4, 9, 8, 5, 2
+Player 2's deck: 3, 10, 1, 7, 6
+Player 1 plays: 4
+Player 2 plays: 3
+Playing a sub-game to determine the winner...
+
+=== Game 2 ===
+
+-- Round 1 (Game 2) --
+Player 1's deck: 9, 8, 5, 2
+Player 2's deck: 10, 1, 7
+Player 1 plays: 9
+Player 2 plays: 10
+Player 2 wins round 1 of game 2!
+
+-- Round 2 (Game 2) --
+Player 1's deck: 8, 5, 2
+Player 2's deck: 1, 7, 10, 9
+Player 1 plays: 8
+Player 2 plays: 1
+Player 1 wins round 2 of game 2!
+
+-- Round 3 (Game 2) --
+Player 1's deck: 5, 2, 8, 1
+Player 2's deck: 7, 10, 9
+Player 1 plays: 5
+Player 2 plays: 7
+Player 2 wins round 3 of game 2!
+
+-- Round 4 (Game 2) --
+Player 1's deck: 2, 8, 1
+Player 2's deck: 10, 9, 7, 5
+Player 1 plays: 2
+Player 2 plays: 10
+Player 2 wins round 4 of game 2!
+
+-- Round 5 (Game 2) --
+Player 1's deck: 8, 1
+Player 2's deck: 9, 7, 5, 10, 2
+Player 1 plays: 8
+Player 2 plays: 9
+Player 2 wins round 5 of game 2!
+
+-- Round 6 (Game 2) --
+Player 1's deck: 1
+Player 2's deck: 7, 5, 10, 2, 9, 8
+Player 1 plays: 1
+Player 2 plays: 7
+Player 2 wins round 6 of game 2!
+The winner of game 2 is player 2!
+
+...anyway, back to game 1.
+Player 2 wins round 9 of game 1!
+
+-- Round 10 (Game 1) --
+Player 1's deck: 9, 8, 5, 2
+Player 2's deck: 10, 1, 7, 6, 3, 4
+Player 1 plays: 9
+Player 2 plays: 10
+Player 2 wins round 10 of game 1!
+
+-- Round 11 (Game 1) --
+Player 1's deck: 8, 5, 2
+Player 2's deck: 1, 7, 6, 3, 4, 10, 9
+Player 1 plays: 8
+Player 2 plays: 1
+Player 1 wins round 11 of game 1!
+
+-- Round 12 (Game 1) --
+Player 1's deck: 5, 2, 8, 1
+Player 2's deck: 7, 6, 3, 4, 10, 9
+Player 1 plays: 5
+Player 2 plays: 7
+Player 2 wins round 12 of game 1!
+
+-- Round 13 (Game 1) --
+Player 1's deck: 2, 8, 1
+Player 2's deck: 6, 3, 4, 10, 9, 7, 5
+Player 1 plays: 2
+Player 2 plays: 6
+Playing a sub-game to determine the winner...
+
+=== Game 3 ===
+
+-- Round 1 (Game 3) --
+Player 1's deck: 8, 1
+Player 2's deck: 3, 4, 10, 9, 7, 5
+Player 1 plays: 8
+Player 2 plays: 3
+Player 1 wins round 1 of game 3!
+
+-- Round 2 (Game 3) --
+Player 1's deck: 1, 8, 3
+Player 2's deck: 4, 10, 9, 7, 5
+Player 1 plays: 1
+Player 2 plays: 4
+Playing a sub-game to determine the winner...
+
+=== Game 4 ===
+
+-- Round 1 (Game 4) --
+Player 1's deck: 8
+Player 2's deck: 10, 9, 7, 5
+Player 1 plays: 8
+Player 2 plays: 10
+Player 2 wins round 1 of game 4!
+The winner of game 4 is player 2!
+
+...anyway, back to game 3.
+Player 2 wins round 2 of game 3!
+
+-- Round 3 (Game 3) --
+Player 1's deck: 8, 3
+Player 2's deck: 10, 9, 7, 5, 4, 1
+Player 1 plays: 8
+Player 2 plays: 10
+Player 2 wins round 3 of game 3!
+
+-- Round 4 (Game 3) --
+Player 1's deck: 3
+Player 2's deck: 9, 7, 5, 4, 1, 10, 8
+Player 1 plays: 3
+Player 2 plays: 9
+Player 2 wins round 4 of game 3!
+The winner of game 3 is player 2!
+
+...anyway, back to game 1.
+Player 2 wins round 13 of game 1!
+
+-- Round 14 (Game 1) --
+Player 1's deck: 8, 1
+Player 2's deck: 3, 4, 10, 9, 7, 5, 6, 2
+Player 1 plays: 8
+Player 2 plays: 3
+Player 1 wins round 14 of game 1!
+
+-- Round 15 (Game 1) --
+Player 1's deck: 1, 8, 3
+Player 2's deck: 4, 10, 9, 7, 5, 6, 2
+Player 1 plays: 1
+Player 2 plays: 4
+Playing a sub-game to determine the winner...
+
+=== Game 5 ===
+
+-- Round 1 (Game 5) --
+Player 1's deck: 8
+Player 2's deck: 10, 9, 7, 5
+Player 1 plays: 8
+Player 2 plays: 10
+Player 2 wins round 1 of game 5!
+The winner of game 5 is player 2!
+
+...anyway, back to game 1.
+Player 2 wins round 15 of game 1!
+
+-- Round 16 (Game 1) --
+Player 1's deck: 8, 3
+Player 2's deck: 10, 9, 7, 5, 6, 2, 4, 1
+Player 1 plays: 8
+Player 2 plays: 10
+Player 2 wins round 16 of game 1!
+
+-- Round 17 (Game 1) --
+Player 1's deck: 3
+Player 2's deck: 9, 7, 5, 6, 2, 4, 1, 10, 8
+Player 1 plays: 3
+Player 2 plays: 9
+Player 2 wins round 17 of game 1!
+The winner of game 1 is player 2!
+
+== Post-game results ==
+Player 1's deck:
+Player 2's deck: 7, 5, 6, 2, 4, 1, 10, 8, 9, 3
+SCORE: 291 (according to Recursive Combat Rules, with 5 games)
+
+**** input/22.input ****
+** Recursive Combat Rules **
+
+=== Game 1 ===
+
+-- Round 1 (Game 1) --
+Player 1's deck: 30, 42, 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10
+Player 2's deck: 36, 13, 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49
+Player 1 plays: 30
+Player 2 plays: 36
+Player 2 wins round 1 of game 1!
+
+-- Round 2 (Game 1) --
+Player 1's deck: 42, 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10
+Player 2's deck: 13, 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30
+Player 1 plays: 42
+Player 2 plays: 13
+Player 1 wins round 2 of game 1!
+
+-- Round 3 (Game 1) --
+Player 1's deck: 25, 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10, 42, 13
+Player 2's deck: 46, 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30
+Player 1 plays: 25
+Player 2 plays: 46
+Player 2 wins round 3 of game 1!
+
+-- Round 4 (Game 1) --
+Player 1's deck: 7, 29, 1, 16, 50, 11, 40, 4, 41, 3, 12, 8, 20, 32, 38, 31, 2, 44, 28, 33, 18, 10, 42, 13
+Player 2's deck: 15, 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 35, 23, 48, 34, 26, 49, 36, 30, 46, 25
+Player 1 plays: 7
+Player 2 plays: 15
+Playing a sub-game to determine the winner...
+
+=== Game 2 ===
+
+-- Round 1 (Game 2) --
+Player 1's deck: 29, 1, 16, 50, 11, 40, 4
+Player 2's deck: 27, 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6
+Player 1 plays: 29
+Player 2 plays: 27
+Player 1 wins round 1 of game 2!
+
+-- Round 2 (Game 2) --
+Player 1's deck: 1, 16, 50, 11, 40, 4, 29, 27
+Player 2's deck: 45, 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6
+Player 1 plays: 1
+Player 2 plays: 45
+Player 2 wins round 2 of game 2!
+
+-- Round 3 (Game 2) --
+Player 1's deck: 16, 50, 11, 40, 4, 29, 27
+Player 2's deck: 5, 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 45, 1
+Player 1 plays: 16
+Player 2 plays: 5
+Player 1 wins round 3 of game 2!
+
+-- Round 4 (Game 2) --
+Player 1's deck: 50, 11, 40, 4, 29, 27, 16, 5
+Player 2's deck: 19, 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 45, 1
+Player 1 plays: 50
+Player 2 plays: 19
+Player 1 wins round 4 of game 2!
+
+-- Round 5 (Game 2) --
+Player 1's deck: 11, 40, 4, 29, 27, 16, 5, 50, 19
+Player 2's deck: 39, 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 45, 1
+Player 1 plays: 11
+Player 2 plays: 39
+Player 2 wins round 5 of game 2!
+
+-- Round 6 (Game 2) --
+Player 1's deck: 40, 4, 29, 27, 16, 5, 50, 19
+Player 2's deck: 24, 14, 9, 17, 22, 37, 47, 43, 21, 6, 45, 1, 39, 11
+Player 1 plays: 40
+Player 2 plays: 24
+Player 1 wins round 6 of game 2!
+
+-- Round 7 (Game 2) --
+Player 1's deck: 4, 29, 27, 16, 5, 50, 19, 40, 24
+Player 2's deck: 14, 9, 17, 22, 37, 47, 43, 21, 6, 45, 1, 39, 11
+Player 1 plays: 4
+Player 2 plays: 14
+Player 2 wins round 7 of game 2!
+
+-- Round 8 (Game 2) --
+Player 1's deck: 29, 27, 16, 5, 50, 19, 40, 24
+Player 2's deck: 9, 17, 22, 37, 47, 43, 21, 6, 45, 1, 39, 11, 14, 4
+Player 1 plays: 29
+Player 2 plays: 9
+Player 1 wins round 8 of game 2!
+
+-- Round 9 (Game 2) --
+Player 1's deck: 27, 16, 5, 50, 19, 40, 24, 29, 9
+Player 2's deck: 17, 22, 37, 47, 43, 21, 6, 45, 1, 39, 11, 14, 4
+Player 1 plays: 27
+Player 2 plays: 17
+Player 1 wins round 9 of game 2!
+
+-- Round 10 (Game 2) --
+Player 1's deck: 16, 5, 50, 19, 40, 24, 29, 9, 27, 17
+Player 2's deck: 22, 37, 47, 43, 21, 6, 45, 1, 39, 11, 14, 4
+Player 1 plays: 16
+Player 2 plays: 22
+Player 2 wins round 10 of game 2!
+
+-- Round 11 (Game 2) --
+Player 1's deck: 5, 50, 19, 40, 24, 29, 9, 27, 17
+Player 2's deck: 37, 47, 43, 21, 6, 45, 1, 39, 11, 14, 4, 22, 16
+Player 1 plays: 5
+Player 2 plays: 37
+Player 2 wins round 11 of game 2!
+
+-- Round 12 (Game 2) --
+Player 1's deck: 50, 19, 40, 24, 29, 9, 27, 17
+Player 2's deck: 47, 43, 21, 6, 45, 1, 39, 11, 14, 4, 22, 16, 37, 5
+Player 1 plays: 50
+Player 2 plays: 47
+Player 1 wins round 12 of game 2!
+
+-- Round 13 (Game 2) --
+Player 1's deck: 19, 40, 24, 29, 9, 27, 17, 50, 47
+Player 2's deck: 43, 21, 6, 45, 1, 39, 11, 14, 4, 22, 16, 37, 5
+Player 1 plays: 19
+Player 2 plays: 43
+Player 2 wins round 13 of game 2!
+
+-- Round 14 (Game 2) --
+Player 1's deck: 40, 24, 29, 9, 27, 17, 50, 47
+Player 2's deck: 21, 6, 45, 1, 39, 11, 14, 4, 22, 16, 37, 5, 43, 19
+Player 1 plays: 40
+Player 2 plays: 21
+Player 1 wins round 14 of game 2!
+
+-- Round 15 (Game 2) --
+Player 1's deck: 24, 29, 9, 27, 17, 50, 47, 40, 21
+Player 2's deck: 6, 45, 1, 39, 11, 14, 4, 22, 16, 37, 5, 43, 19
+Player 1 plays: 24
+Player 2 plays: 6
+Player 1 wins round 15 of game 2!
+
+-- Round 16 (Game 2) --
+Player 1's deck: 29, 9, 27, 17, 50, 47, 40, 21, 24, 6
+Player 2's deck: 45, 1, 39, 11, 14, 4, 22, 16, 37, 5, 43, 19
+Player 1 plays: 29
+Player 2 plays: 45
+Player 2 wins round 16 of game 2!
+
+-- Round 17 (Game 2) --
+Player 1's deck: 9, 27, 17, 50, 47, 40, 21, 24, 6
+Player 2's deck: 1, 39, 11, 14, 4, 22, 16, 37, 5, 43, 19, 45, 29
+Player 1 plays: 9
+Player 2 plays: 1
+Player 1 wins round 17 of game 2!
+
+-- Round 18 (Game 2) --
+Player 1's deck: 27, 17, 50, 47, 40, 21, 24, 6, 9, 1
+Player 2's deck: 39, 11, 14, 4, 22, 16, 37, 5, 43, 19, 45, 29
+Player 1 plays: 27
+Player 2 plays: 39
+Player 2 wins round 18 of game 2!
+
+-- Round 19 (Game 2) --
+Player 1's deck: 17, 50, 47, 40, 21, 24, 6, 9, 1
+Player 2's deck: 11, 14, 4, 22, 16, 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 17
+Player 2 plays: 11
+Player 1 wins round 19 of game 2!
+
+-- Round 20 (Game 2) --
+Player 1's deck: 50, 47, 40, 21, 24, 6, 9, 1, 17, 11
+Player 2's deck: 14, 4, 22, 16, 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 50
+Player 2 plays: 14
+Player 1 wins round 20 of game 2!
+
+-- Round 21 (Game 2) --
+Player 1's deck: 47, 40, 21, 24, 6, 9, 1, 17, 11, 50, 14
+Player 2's deck: 4, 22, 16, 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 47
+Player 2 plays: 4
+Player 1 wins round 21 of game 2!
+
+-- Round 22 (Game 2) --
+Player 1's deck: 40, 21, 24, 6, 9, 1, 17, 11, 50, 14, 47, 4
+Player 2's deck: 22, 16, 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 40
+Player 2 plays: 22
+Player 1 wins round 22 of game 2!
+
+-- Round 23 (Game 2) --
+Player 1's deck: 21, 24, 6, 9, 1, 17, 11, 50, 14, 47, 4, 40, 22
+Player 2's deck: 16, 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 21
+Player 2 plays: 16
+Player 1 wins round 23 of game 2!
+
+-- Round 24 (Game 2) --
+Player 1's deck: 24, 6, 9, 1, 17, 11, 50, 14, 47, 4, 40, 22, 21, 16
+Player 2's deck: 37, 5, 43, 19, 45, 29, 39, 27
+Player 1 plays: 24
+Player 2 plays: 37
+Player 2 wins round 24 of game 2!
+
+-- Round 25 (Game 2) --
+Player 1's deck: 6, 9, 1, 17, 11, 50, 14, 47, 4, 40, 22, 21, 16
+Player 2's deck: 5, 43, 19, 45, 29, 39, 27, 37, 24
+Player 1 plays: 6
+Player 2 plays: 5
+Playing a sub-game to determine the winner...
+
+=== Game 3 ===
+
+-- Round 1 (Game 3) --
+Player 1's deck: 9, 1, 17, 11, 50, 14
+Player 2's deck: 43, 19, 45, 29, 39
+Player 1 plays: 9
+Player 2 plays: 43
+Player 2 wins round 1 of game 3!
+
+-- Round 2 (Game 3) --
+Player 1's deck: 1, 17, 11, 50, 14
+Player 2's deck: 19, 45, 29, 39, 43, 9
+Player 1 plays: 1
+Player 2 plays: 19
+Player 2 wins round 2 of game 3!
+
+-- Round 3 (Game 3) --
+Player 1's deck: 17, 11, 50, 14
+Player 2's deck: 45, 29, 39, 43, 9, 19, 1
+Player 1 plays: 17
+Player 2 plays: 45
+Player 2 wins round 3 of game 3!
+
+-- Round 4 (Game 3) --
+Player 1's deck: 11, 50, 14
+Player 2's deck: 29, 39, 43, 9, 19, 1, 45, 17
+Player 1 plays: 11
+Player 2 plays: 29
+Player 2 wins round 4 of game 3!
+
+-- Round 5 (Game 3) --
+Player 1's deck: 50, 14
+Player 2's deck: 39, 43, 9, 19, 1, 45, 17, 29, 11
+Player 1 plays: 50
+Player 2 plays: 39
+Player 1 wins round 5 of game 3!
+
+-- Round 6 (Game 3) --
+Player 1's deck: 14, 50, 39
+Player 2's deck: 43, 9, 19, 1, 45, 17, 29, 11
+Player 1 plays: 14
+Player 2 plays: 43
+Player 2 wins round 6 of game 3!
+
+-- Round 7 (Game 3) --
+Player 1's deck: 50, 39
+Player 2's deck: 9, 19, 1, 45, 17, 29, 11, 43, 14
+Player 1 plays: 50
+Player 2 plays: 9
+Player 1 wins round 7 of game 3!
+
+-- Round 8 (Game 3) --
+Player 1's deck: 39, 50, 9
+Player 2's deck: 19, 1, 45, 17, 29, 11, 43, 14
+Player 1 plays: 39
+Player 2 plays: 19
+Player 1 wins round 8 of game 3!
+
+-- Round 9 (Game 3) --
+Player 1's deck: 50, 9, 39, 19
+Player 2's deck: 1, 45, 17, 29, 11, 43, 14
+Player 1 plays: 50
+Player 2 plays: 1
+Player 1 wins round 9 of game 3!
+
+-- Round 10 (Game 3) --
+Player 1's deck: 9, 39, 19, 50, 1
+Player 2's deck: 45, 17, 29, 11, 43, 14
+Player 1 plays: 9
+Player 2 plays: 45
+Player 2 wins round 10 of game 3!
+
+-- Round 11 (Game 3) --
+Player 1's deck: 39, 19, 50, 1
+Player 2's deck: 17, 29, 11, 43, 14, 45, 9
+Player 1 plays: 39
+Player 2 plays: 17
+Player 1 wins round 11 of game 3!
+
+-- Round 12 (Game 3) --
+Player 1's deck: 19, 50, 1, 39, 17
+Player 2's deck: 29, 11, 43, 14, 45, 9
+Player 1 plays: 19
+Player 2 plays: 29
+Player 2 wins round 12 of game 3!
+
+-- Round 13 (Game 3) --
+Player 1's deck: 50, 1, 39, 17
+Player 2's deck: 11, 43, 14, 45, 9, 29, 19
+Player 1 plays: 50
+Player 2 plays: 11
+Player 1 wins round 13 of game 3!
+
+-- Round 14 (Game 3) --
+Player 1's deck: 1, 39, 17, 50, 11
+Player 2's deck: 43, 14, 45, 9, 29, 19
+Player 1 plays: 1
+Player 2 plays: 43
+Player 2 wins round 14 of game 3!
+
+-- Round 15 (Game 3) --
+Player 1's deck: 39, 17, 50, 11
+Player 2's deck: 14, 45, 9, 29, 19, 43, 1
+Player 1 plays: 39
+Player 2 plays: 14
+Player 1 wins round 15 of game 3!
+
+-- Round 16 (Game 3) --
+Player 1's deck: 17, 50, 11, 39, 14
+Player 2's deck: 45, 9, 29, 19, 43, 1
+Player 1 plays: 17
+Player 2 plays: 45
+Player 2 wins round 16 of game 3!
+
+-- Round 17 (Game 3) --
+Player 1's deck: 50, 11, 39, 14
+Player 2's deck: 9, 29, 19, 43, 1, 45, 17
+Player 1 plays: 50
+Player 2 plays: 9
+Player 1 wins round 17 of game 3!
+
+-- Round 18 (Game 3) --
+Player 1's deck: 11, 39, 14, 50, 9
+Player 2's deck: 29, 19, 43, 1, 45, 17
+Player 1 plays: 11
+Player 2 plays: 29
+Player 2 wins round 18 of game 3!
+
+-- Round 19 (Game 3) --
+Player 1's deck: 39, 14, 50, 9
+Player 2's deck: 19, 43, 1, 45, 17, 29, 11
+Player 1 plays: 39
+Player 2 plays: 19
+Player 1 wins round 19 of game 3!
+
+-- Round 20 (Game 3) --
+Player 1's deck: 14, 50, 9, 39, 19
+Player 2's deck: 43, 1, 45, 17, 29, 11
+Player 1 plays: 14
+Player 2 plays: 43
+Player 2 wins round 20 of game 3!
+
+-- Round 21 (Game 3) --
+Player 1's deck: 50, 9, 39, 19
+Player 2's deck: 1, 45, 17, 29, 11, 43, 14
+PLAYER 1 WINNER BY DEFAULT
+...anyway, back to game 2.
+Player 1 wins round 25 of game 2!
+
+-- Round 26 (Game 2) --
+Player 1's deck: 9, 1, 17, 11, 50, 14, 47, 4, 40, 22, 21, 16, 6, 5
+Player 2's deck: 43, 19, 45, 29, 39, 27, 37, 24
+Player 1 plays: 9
+Player 2 plays: 43
+Player 2 wins round 26 of game 2!
+
+-- Round 27 (Game 2) --
+Player 1's deck: 1, 17, 11, 50, 14, 47, 4, 40, 22, 21, 16, 6, 5
+Player 2's deck: 19, 45, 29, 39, 27, 37, 24, 43, 9
+Player 1 plays: 1
+Player 2 plays: 19
+Player 2 wins round 27 of game 2!
+
+-- Round 28 (Game 2) --
+Player 1's deck: 17, 11, 50, 14, 47, 4, 40, 22, 21, 16, 6, 5
+Player 2's deck: 45, 29, 39, 27, 37, 24, 43, 9, 19, 1
+Player 1 plays: 17
+Player 2 plays: 45
+Player 2 wins round 28 of game 2!
+
+-- Round 29 (Game 2) --
+Player 1's deck: 11, 50, 14, 47, 4, 40, 22, 21, 16, 6, 5
+Player 2's deck: 29, 39, 27, 37, 24, 43, 9, 19, 1, 45, 17
+Player 1 plays: 11
+Player 2 plays: 29
+Player 2 wins round 29 of game 2!
+
+-- Round 30 (Game 2) --
+Player 1's deck: 50, 14, 47, 4, 40, 22, 21, 16, 6, 5
+Player 2's deck: 39, 27, 37, 24, 43, 9, 19, 1, 45, 17, 29, 11
+Player 1 plays: 50
+Player 2 plays: 39
+Player 1 wins round 30 of game 2!
+
+-- Round 31 (Game 2) --
+Player 1's deck: 14, 47, 4, 40, 22, 21, 16, 6, 5, 50, 39
+Player 2's deck: 27, 37, 24, 43, 9, 19, 1, 45, 17, 29, 11
+Player 1 plays: 14
+Player 2 plays: 27
+Player 2 wins round 31 of game 2!
+
+-- Round 32 (Game 2) --
+Player 1's deck: 47, 4, 40, 22, 21, 16, 6, 5, 50, 39
+Player 2's deck: 37, 24, 43, 9, 19, 1, 45, 17, 29, 11, 27, 14
+Player 1 plays: 47
+Player 2 plays: 37
+Player 1 wins round 32 of game 2!
+
+-- Round 33 (Game 2) --
+Player 1's deck: 4, 40, 22, 21, 16, 6, 5, 50, 39, 47, 37
+Player 2's deck: 24, 43, 9, 19, 1, 45, 17, 29, 11, 27, 14
+Player 1 plays: 4
+Player 2 plays: 24
+Player 2 wins round 33 of game 2!
+
+-- Round 34 (Game 2) --
+Player 1's deck: 40, 22, 21, 16, 6, 5, 50, 39, 47, 37
+Player 2's deck: 43, 9, 19, 1, 45, 17, 29, 11, 27, 14, 24, 4
+Player 1 plays: 40
+Player 2 plays: 43
+Player 2 wins round 34 of game 2!
+
+-- Round 35 (Game 2) --
+Player 1's deck: 22, 21, 16, 6, 5, 50, 39, 47, 37
+Player 2's deck: 9, 19, 1, 45, 17, 29, 11, 27, 14, 24, 4, 43, 40
+Player 1 plays: 22
+Player 2 plays: 9
+Player 1 wins round 35 of game 2!
+
+-- Round 36 (Game 2) --
+Player 1's deck: 21, 16, 6, 5, 50, 39, 47, 37, 22, 9
+Player 2's deck: 19, 1, 45, 17, 29, 11, 27, 14, 24, 4, 43, 40
+Player 1 plays: 21
+Player 2 plays: 19
+Player 1 wins round 36 of game 2!
+
+-- Round 37 (Game 2) --
+Player 1's deck: 16, 6, 5, 50, 39, 47, 37, 22, 9, 21, 19
+Player 2's deck: 1, 45, 17, 29, 11, 27, 14, 24, 4, 43, 40
+Player 1 plays: 16
+Player 2 plays: 1
+Player 1 wins round 37 of game 2!
+
+-- Round 38 (Game 2) --
+Player 1's deck: 6, 5, 50, 39, 47, 37, 22, 9, 21, 19, 16, 1
+Player 2's deck: 45, 17, 29, 11, 27, 14, 24, 4, 43, 40
+Player 1 plays: 6
+Player 2 plays: 45
+Player 2 wins round 38 of game 2!
+
+-- Round 39 (Game 2) --
+Player 1's deck: 5, 50, 39, 47, 37, 22, 9, 21, 19, 16, 1
+Player 2's deck: 17, 29, 11, 27, 14, 24, 4, 43, 40, 45, 6
+Player 1 plays: 5
+Player 2 plays: 17
+Player 2 wins round 39 of game 2!
+
+-- Round 40 (Game 2) --
+Player 1's deck: 50, 39, 47, 37, 22, 9, 21, 19, 16, 1
+Player 2's deck: 29, 11, 27, 14, 24, 4, 43, 40, 45, 6, 17, 5
+Player 1 plays: 50
+Player 2 plays: 29
+Player 1 wins round 40 of game 2!
+
+-- Round 41 (Game 2) --
+Player 1's deck: 39, 47, 37, 22, 9, 21, 19, 16, 1, 50, 29
+Player 2's deck: 11, 27, 14, 24, 4, 43, 40, 45, 6, 17, 5
+Player 1 plays: 39
+Player 2 plays: 11
+Player 1 wins round 41 of game 2!
+
+-- Round 42 (Game 2) --
+Player 1's deck: 47, 37, 22, 9, 21, 19, 16, 1, 50, 29, 39, 11
+Player 2's deck: 27, 14, 24, 4, 43, 40, 45, 6, 17, 5
+Player 1 plays: 47
+Player 2 plays: 27
+Player 1 wins round 42 of game 2!
+
+-- Round 43 (Game 2) --
+Player 1's deck: 37, 22, 9, 21, 19, 16, 1, 50, 29, 39, 11, 47, 27
+Player 2's deck: 14, 24, 4, 43, 40, 45, 6, 17, 5
+Player 1 plays: 37
+Player 2 plays: 14
+Player 1 wins round 43 of game 2!
+
+-- Round 44 (Game 2) --
+Player 1's deck: 22, 9, 21, 19, 16, 1, 50, 29, 39, 11, 47, 27, 37, 14
+Player 2's deck: 24, 4, 43, 40, 45, 6, 17, 5
+Player 1 plays: 22
+Player 2 plays: 24
+Player 2 wins round 44 of game 2!
+
+-- Round 45 (Game 2) --
+Player 1's deck: 9, 21, 19, 16, 1, 50, 29, 39, 11, 47, 27, 37, 14
+Player 2's deck: 4, 43, 40, 45, 6, 17, 5, 24, 22
+Player 1 plays: 9
+Player 2 plays: 4
+Playing a sub-game to determine the winner...
+
+=== Game 4 ===
+
+-- Round 1 (Game 4) --
+Player 1's deck: 21, 19, 16, 1, 50, 29, 39, 11, 47
+Player 2's deck: 43, 40, 45, 6
+Player 1 plays: 21
+Player 2 plays: 43
+Player 2 wins round 1 of game 4!
+
+-- Round 2 (Game 4) --
+Player 1's deck: 19, 16, 1, 50, 29, 39, 11, 47
+Player 2's deck: 40, 45, 6, 43, 21
+Player 1 plays: 19
+Player 2 plays: 40
+Player 2 wins round 2 of game 4!
+
+-- Round 3 (Game 4) --
+Player 1's deck: 16, 1, 50, 29, 39, 11, 47
+Player 2's deck: 45, 6, 43, 21, 40, 19
+Player 1 plays: 16
+Player 2 plays: 45
+Player 2 wins round 3 of game 4!
+
+-- Round 4 (Game 4) --
+Player 1's deck: 1, 50, 29, 39, 11, 47
+Player 2's deck: 6, 43, 21, 40, 19, 45, 16
+Player 1 plays: 1
+Player 2 plays: 6
+Playing a sub-game to determine the winner...
+
+=== Game 5 ===
+
+-- Round 1 (Game 5) --
+Player 1's deck: 50
+Player 2's deck: 43, 21, 40, 19, 45, 16
+Player 1 plays: 50
+Player 2 plays: 43
+Player 1 wins round 1 of game 5!
+
+-- Round 2 (Game 5) --
+Player 1's deck: 50, 43
+Player 2's deck: 21, 40, 19, 45, 16
+Player 1 plays: 50
+Player 2 plays: 21
+Player 1 wins round 2 of game 5!
+
+-- Round 3 (Game 5) --
+Player 1's deck: 43, 50, 21
+Player 2's deck: 40, 19, 45, 16
+Player 1 plays: 43
+Player 2 plays: 40
+Player 1 wins round 3 of game 5!
+
+-- Round 4 (Game 5) --
+Player 1's deck: 50, 21, 43, 40
+Player 2's deck: 19, 45, 16
+Player 1 plays: 50
+Player 2 plays: 19
+Player 1 wins round 4 of game 5!
+
+-- Round 5 (Game 5) --
+Player 1's deck: 21, 43, 40, 50, 19
+Player 2's deck: 45, 16
+Player 1 plays: 21
+Player 2 plays: 45
+Player 2 wins round 5 of game 5!
+
+-- Round 6 (Game 5) --
+Player 1's deck: 43, 40, 50, 19
+Player 2's deck: 16, 45, 21
+Player 1 plays: 43
+Player 2 plays: 16
+Player 1 wins round 6 of game 5!
+
+-- Round 7 (Game 5) --
+Player 1's deck: 40, 50, 19, 43, 16
+Player 2's deck: 45, 21
+Player 1 plays: 40
+Player 2 plays: 45
+Player 2 wins round 7 of game 5!
+
+-- Round 8 (Game 5) --
+Player 1's deck: 50, 19, 43, 16
+Player 2's deck: 21, 45, 40
+Player 1 plays: 50
+Player 2 plays: 21
+Player 1 wins round 8 of game 5!
+
+-- Round 9 (Game 5) --
+Player 1's deck: 19, 43, 16, 50, 21
+Player 2's deck: 45, 40
+Player 1 plays: 19
+Player 2 plays: 45
+Player 2 wins round 9 of game 5!
+
+-- Round 10 (Game 5) --
+Player 1's deck: 43, 16, 50, 21
+Player 2's deck: 40, 45, 19
+Player 1 plays: 43
+Player 2 plays: 40
+Player 1 wins round 10 of game 5!
+
+-- Round 11 (Game 5) --
+Player 1's deck: 16, 50, 21, 43, 40
+Player 2's deck: 45, 19
+Player 1 plays: 16
+Player 2 plays: 45
+Player 2 wins round 11 of game 5!
+
+-- Round 12 (Game 5) --
+Player 1's deck: 50, 21, 43, 40
+Player 2's deck: 19, 45, 16
+PLAYER 1 WINNER BY DEFAULT
+...anyway, back to game 4.
+Player 1 wins round 4 of game 4!
+
+-- Round 5 (Game 4) --
+Player 1's deck: 50, 29, 39, 11, 47, 1, 6
+Player 2's deck: 43, 21, 40, 19, 45, 16
+Player 1 plays: 50
+Player 2 plays: 43
+Player 1 wins round 5 of game 4!
+
+...
+
+=== Game 4538 ===
+
+-- Round 1 (Game 4538) --
+Player 1's deck: 44, 34, 22, 12, 8
+Player 2's deck: 42, 19, 17, 6
+Player 1 plays: 44
+Player 2 plays: 42
+Player 1 wins round 1 of game 4538!
+
+-- Round 2 (Game 4538) --
+Player 1's deck: 34, 22, 12, 8, 44, 42
+Player 2's deck: 19, 17, 6
+Player 1 plays: 34
+Player 2 plays: 19
+Player 1 wins round 2 of game 4538!
+
+-- Round 3 (Game 4538) --
+Player 1's deck: 22, 12, 8, 44, 42, 34, 19
+Player 2's deck: 17, 6
+Player 1 plays: 22
+Player 2 plays: 17
+Player 1 wins round 3 of game 4538!
+
+-- Round 4 (Game 4538) --
+Player 1's deck: 12, 8, 44, 42, 34, 19, 22, 17
+Player 2's deck: 6
+Player 1 plays: 12
+Player 2 plays: 6
+Player 1 wins round 4 of game 4538!
+The winner of game 4538 is player 1!
+
+...anyway, back to game 1.
+Player 1 wins round 1531 of game 1!
+
+-- Round 1532 (Game 1) --
+Player 1's deck: 44, 34, 22, 12, 8, 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4
+Player 2's deck: 42, 19, 17, 6, 20, 18
+Player 1 plays: 44
+Player 2 plays: 42
+Player 1 wins round 1532 of game 1!
+
+-- Round 1533 (Game 1) --
+Player 1's deck: 34, 22, 12, 8, 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42
+Player 2's deck: 19, 17, 6, 20, 18
+Player 1 plays: 34
+Player 2 plays: 19
+Player 1 wins round 1533 of game 1!
+
+-- Round 1534 (Game 1) --
+Player 1's deck: 22, 12, 8, 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19
+Player 2's deck: 17, 6, 20, 18
+Player 1 plays: 22
+Player 2 plays: 17
+Player 1 wins round 1534 of game 1!
+
+-- Round 1535 (Game 1) --
+Player 1's deck: 12, 8, 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17
+Player 2's deck: 6, 20, 18
+Player 1 plays: 12
+Player 2 plays: 6
+Player 1 wins round 1535 of game 1!
+
+-- Round 1536 (Game 1) --
+Player 1's deck: 8, 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6
+Player 2's deck: 20, 18
+Player 1 plays: 8
+Player 2 plays: 20
+Player 2 wins round 1536 of game 1!
+
+-- Round 1537 (Game 1) --
+Player 1's deck: 9, 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6
+Player 2's deck: 18, 20, 8
+Player 1 plays: 9
+Player 2 plays: 18
+Player 2 wins round 1537 of game 1!
+
+-- Round 1538 (Game 1) --
+Player 1's deck: 2, 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6
+Player 2's deck: 20, 8, 18, 9
+Player 1 plays: 2
+Player 2 plays: 20
+Player 2 wins round 1538 of game 1!
+
+-- Round 1539 (Game 1) --
+Player 1's deck: 16, 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6
+Player 2's deck: 8, 18, 9, 20, 2
+Player 1 plays: 16
+Player 2 plays: 8
+Player 1 wins round 1539 of game 1!
+
+-- Round 1540 (Game 1) --
+Player 1's deck: 49, 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6, 16, 8
+Player 2's deck: 18, 9, 20, 2
+Player 1 plays: 49
+Player 2 plays: 18
+Player 1 wins round 1540 of game 1!
+
+-- Round 1541 (Game 1) --
+Player 1's deck: 38, 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6, 16, 8, 49, 18
+Player 2's deck: 9, 20, 2
+Player 1 plays: 38
+Player 2 plays: 9
+Player 1 wins round 1541 of game 1!
+
+-- Round 1542 (Game 1) --
+Player 1's deck: 47, 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6, 16, 8, 49, 18, 38, 9
+Player 2's deck: 20, 2
+Player 1 plays: 47
+Player 2 plays: 20
+Player 1 wins round 1542 of game 1!
+
+-- Round 1543 (Game 1) --
+Player 1's deck: 14, 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6, 16, 8, 49, 18, 38, 9, 47, 20
+Player 2's deck: 2
+Player 1 plays: 14
+Player 2 plays: 2
+Player 1 wins round 1543 of game 1!
+The winner of game 1 is player 1!
+
+== Post-game results ==
+Player 1's deck: 31, 10, 43, 25, 32, 13, 37, 36, 23, 3, 50, 39, 41, 30, 1, 7, 48, 29, 46, 40, 35, 33, 28, 24, 21, 11, 45, 27, 26, 15, 5, 4, 44, 42, 34, 19, 22, 17, 12, 6, 16, 8, 49, 18, 38, 9, 47, 20, 14, 2
+Player 2's deck:
+SCORE: 34771 (according to Recursive Combat Rules, with 4538 games)
+
