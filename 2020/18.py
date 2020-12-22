@@ -1,3 +1,5 @@
+# cLx 2020 day 18
+
 # part 1
 #   the rules of operator precedence have changed. Rather than evaluating multiplication
 #   before addition, the operators have the same precedence, and are evaluated left-to-right
@@ -74,7 +76,6 @@ print()
 print("Part 2")
 from functools import reduce
 import operator
-import re
 
 class Node():
 	def __init__(self, inp, op=None, level=0, verbose=True):
@@ -94,6 +95,15 @@ class Node():
 				print()
 
 	def split(self):
+		def splitAt(cutsPos, s):
+			r = []
+			cutPosOld = 0
+			for cutPos in tuple(cutsPos)+(len(s),):
+				x = s[cutPosOld:cutPos]
+				cutPosOld = cutPos + 1
+				r.append(x)
+			return r
+
 		# check if we can remove one layer of braces
 		if self.inp[0] == '(' and self.inp[-1] == ')':
 			bracketCount=1
@@ -127,16 +137,10 @@ class Node():
 		# split if we can
 		if mulPosisions:
 			self.operator = operator.mul
-			str1 = self.inp[:mulPosisions[0]]
-			str2 = self.inp[mulPosisions[0]+1:]
-			self.nodes = [Node(str1, level=self.level+1, verbose=self.verbose), Node(str2, level=self.level+1, verbose=self.verbose)]
-
+			self.nodes = [Node(inpPart, level=self.level+1, verbose=self.verbose) for inpPart in splitAt(mulPosisions, self.inp)]
 		elif addPosisions:
 			self.operator = operator.add
-			str1 = self.inp[:addPosisions[0]]
-			str2 = self.inp[addPosisions[0]+1:]
-			self.nodes = [Node(str1, level=self.level+1, verbose=self.verbose), Node(str2, level=self.level+1, verbose=self.verbose)]
-
+			self.nodes = [Node(inpPart, level=self.level+1, verbose=self.verbose) for inpPart in splitAt(addPosisions, self.inp)]
 		else:
 			self.value = int(self.inp)
 
