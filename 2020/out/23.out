@@ -1,0 +1,1145 @@
+*** 389125467 with 10 moves ***
+-- move 1 --
+cups: 3, 2, 5, 4, 6, 7...
+pick up: 8, 9, 1
+Destination: 2
+
+-- move 2 --
+cups: 2, 5, 4, 6, 7, 3...
+pick up: 8, 9, 1
+Destination: 7
+
+-- move 3 --
+cups: 5, 8, 9, 1, 3, 2...
+pick up: 4, 6, 7
+Destination: 3
+
+-- move 4 --
+cups: 8, 4, 6, 7, 2, 5...
+pick up: 9, 1, 3
+Destination: 7
+
+-- move 5 --
+cups: 4, 1, 3, 2, 5, 8...
+pick up: 6, 7, 9
+Destination: 3
+
+-- move 6 --
+cups: 1, 9, 2, 5, 8, 4...
+pick up: 3, 6, 7
+Destination: 9
+
+-- move 7 --
+cups: 9, 2, 5, 8, 4, 1...
+pick up: 3, 6, 7
+Destination: 8
+
+-- move 8 --
+cups: 2, 6, 7, 4, 1, 9...
+pick up: 5, 8, 3
+Destination: 1
+
+-- move 9 --
+cups: 6, 5, 8, 3, 9, 2...
+pick up: 7, 4, 1
+Destination: 5
+
+-- move 10 --
+cups: 5, 8, 3, 9, 2, 6...
+pick up: 7, 4, 1
+Destination: 3
+
+-- final --
+cups: 8, 3, 7, 4, 1, 9, 2, 6, 5...
+92658374
+
+*** 389125467 with 100 moves ***
+-- move 1 --
+cups: 3, 2, 5, 4, 6, 7...
+pick up: 8, 9, 1
+Destination: 2
+
+-- move 2 --
+cups: 2, 5, 4, 6, 7, 3...
+pick up: 8, 9, 1
+Destination: 7
+
+-- move 3 --
+cups: 5, 8, 9, 1, 3, 2...
+pick up: 4, 6, 7
+Destination: 3
+
+-- move 4 --
+cups: 8, 4, 6, 7, 2, 5...
+pick up: 9, 1, 3
+Destination: 7
+
+-- move 5 --
+cups: 4, 1, 3, 2, 5, 8...
+pick up: 6, 7, 9
+Destination: 3
+
+-- move 6 --
+cups: 1, 9, 2, 5, 8, 4...
+pick up: 3, 6, 7
+Destination: 9
+
+-- move 7 --
+cups: 9, 2, 5, 8, 4, 1...
+pick up: 3, 6, 7
+Destination: 8
+
+-- move 8 --
+cups: 2, 6, 7, 4, 1, 9...
+pick up: 5, 8, 3
+Destination: 1
+
+-- move 9 --
+cups: 6, 5, 8, 3, 9, 2...
+pick up: 7, 4, 1
+Destination: 5
+
+-- move 10 --
+cups: 5, 8, 3, 9, 2, 6...
+pick up: 7, 4, 1
+Destination: 3
+
+-- move 11 --
+cups: 8, 1, 9, 2, 6, 5...
+pick up: 3, 7, 4
+Destination: 6
+
+-- move 12 --
+cups: 1, 3, 7, 4, 5, 8...
+pick up: 9, 2, 6
+Destination: 8
+
+-- move 13 --
+cups: 3, 8, 9, 2, 6, 1...
+pick up: 7, 4, 5
+Destination: 2
+
+-- move 14 --
+cups: 8, 4, 5, 6, 1, 3...
+pick up: 9, 2, 7
+Destination: 6
+
+-- move 15 --
+cups: 4, 2, 7, 1, 3, 8...
+pick up: 5, 6, 9
+Destination: 3
+
+-- move 16 --
+cups: 2, 5, 6, 9, 8, 4...
+pick up: 7, 1, 3
+Destination: 9
+
+-- move 17 --
+cups: 5, 1, 3, 8, 4, 2...
+pick up: 6, 9, 7
+Destination: 4
+
+-- move 18 --
+cups: 1, 6, 9, 7, 2, 5...
+pick up: 3, 8, 4
+Destination: 9
+
+-- move 19 --
+cups: 6, 4, 7, 2, 5, 1...
+pick up: 9, 3, 8
+Destination: 5
+
+-- move 20 --
+cups: 4, 9, 3, 8, 1, 6...
+pick up: 7, 2, 5
+Destination: 3
+
+-- move 21 --
+cups: 9, 5, 8, 1, 6, 4...
+pick up: 3, 7, 2
+Destination: 8
+
+-- move 22 --
+cups: 5, 2, 1, 6, 4, 9...
+pick up: 8, 3, 7
+Destination: 4
+
+-- move 23 --
+cups: 2, 8, 3, 7, 9, 5...
+pick up: 1, 6, 4
+Destination: 9
+
+-- move 24 --
+cups: 8, 1, 6, 4, 5, 2...
+pick up: 3, 7, 9
+Destination: 6
+
+-- move 25 --
+cups: 1, 9, 4, 5, 2, 8...
+pick up: 6, 3, 7
+Destination: 9
+
+-- move 26 --
+cups: 9, 4, 5, 2, 8, 1...
+pick up: 6, 3, 7
+Destination: 8
+
+-- move 27 --
+cups: 4, 6, 3, 7, 1, 9...
+pick up: 5, 2, 8
+Destination: 3
+
+-- move 28 --
+cups: 6, 8, 7, 1, 9, 4...
+pick up: 3, 5, 2
+Destination: 4
+
+-- move 29 --
+cups: 8, 4, 3, 5, 2, 6...
+pick up: 7, 1, 9
+Destination: 6
+
+-- move 30 --
+cups: 4, 6, 7, 1, 9, 8...
+pick up: 3, 5, 2
+Destination: 1
+
+-- move 31 --
+cups: 6, 5, 2, 9, 8, 4...
+pick up: 7, 1, 3
+Destination: 5
+
+-- move 32 --
+cups: 5, 2, 9, 8, 4, 6...
+pick up: 7, 1, 3
+Destination: 4
+
+-- move 33 --
+cups: 2, 7, 1, 3, 6, 5...
+pick up: 9, 8, 4
+Destination: 1
+
+-- move 34 --
+cups: 7, 4, 3, 6, 5, 2...
+pick up: 1, 9, 8
+Destination: 6
+
+-- move 35 --
+cups: 4, 9, 8, 5, 2, 7...
+pick up: 3, 6, 1
+Destination: 2
+
+-- move 36 --
+cups: 9, 3, 6, 1, 7, 4...
+pick up: 8, 5, 2
+Destination: 7
+
+-- move 37 --
+cups: 3, 8, 5, 2, 4, 9...
+pick up: 6, 1, 7
+Destination: 2
+
+-- move 38 --
+cups: 8, 1, 7, 4, 9, 3...
+pick up: 5, 2, 6
+Destination: 7
+
+-- move 39 --
+cups: 1, 6, 4, 9, 3, 8...
+pick up: 7, 5, 2
+Destination: 9
+
+-- move 40 --
+cups: 6, 5, 2, 3, 8, 1...
+pick up: 4, 9, 7
+Destination: 5
+
+-- move 41 --
+cups: 5, 2, 3, 8, 1, 6...
+pick up: 4, 9, 7
+Destination: 3
+
+-- move 42 --
+cups: 2, 7, 8, 1, 6, 5...
+pick up: 3, 4, 9
+Destination: 1
+
+-- move 43 --
+cups: 7, 4, 9, 6, 5, 2...
+pick up: 8, 1, 3
+Destination: 6
+
+-- move 44 --
+cups: 4, 1, 3, 5, 2, 7...
+pick up: 9, 6, 8
+Destination: 3
+
+-- move 45 --
+cups: 1, 8, 5, 2, 7, 4...
+pick up: 3, 9, 6
+Destination: 8
+
+-- move 46 --
+cups: 8, 5, 2, 7, 4, 1...
+pick up: 3, 9, 6
+Destination: 7
+
+-- move 47 --
+cups: 5, 9, 6, 4, 1, 8...
+pick up: 2, 7, 3
+Destination: 4
+
+-- move 48 --
+cups: 9, 7, 3, 1, 8, 5...
+pick up: 6, 4, 2
+Destination: 8
+
+-- move 49 --
+cups: 7, 6, 4, 2, 5, 9...
+pick up: 3, 1, 8
+Destination: 6
+
+-- move 50 --
+cups: 6, 4, 2, 5, 9, 7...
+pick up: 3, 1, 8
+Destination: 5
+
+-- move 51 --
+cups: 4, 1, 8, 9, 7, 6...
+pick up: 2, 5, 3
+Destination: 1
+
+-- move 52 --
+cups: 1, 8, 9, 7, 6, 4...
+pick up: 2, 5, 3
+Destination: 9
+
+-- move 53 --
+cups: 8, 3, 7, 6, 4, 1...
+pick up: 9, 2, 5
+Destination: 7
+
+-- move 54 --
+cups: 3, 5, 6, 4, 1, 8...
+pick up: 7, 9, 2
+Destination: 1
+
+-- move 55 --
+cups: 5, 7, 9, 2, 8, 3...
+pick up: 6, 4, 1
+Destination: 3
+
+-- move 56 --
+cups: 7, 3, 6, 4, 1, 5...
+pick up: 9, 2, 8
+Destination: 6
+
+-- move 57 --
+cups: 3, 8, 4, 1, 5, 7...
+pick up: 6, 9, 2
+Destination: 1
+
+-- move 58 --
+cups: 8, 9, 2, 5, 7, 3...
+pick up: 4, 1, 6
+Destination: 7
+
+-- move 59 --
+cups: 9, 4, 1, 6, 3, 8...
+pick up: 2, 5, 7
+Destination: 8
+
+-- move 60 --
+cups: 4, 8, 2, 5, 7, 9...
+pick up: 1, 6, 3
+Destination: 2
+
+-- move 61 --
+cups: 8, 3, 5, 7, 9, 4...
+pick up: 2, 1, 6
+Destination: 7
+
+-- move 62 --
+cups: 3, 1, 6, 9, 4, 8...
+pick up: 5, 7, 2
+Destination: 1
+
+-- move 63 --
+cups: 1, 6, 9, 4, 8, 3...
+pick up: 5, 7, 2
+Destination: 9
+
+-- move 64 --
+cups: 6, 2, 4, 8, 3, 1...
+pick up: 9, 5, 7
+Destination: 4
+
+-- move 65 --
+cups: 2, 7, 8, 3, 1, 6...
+pick up: 4, 9, 5
+Destination: 1
+
+-- move 66 --
+cups: 7, 4, 9, 5, 6, 2...
+pick up: 8, 3, 1
+Destination: 6
+
+-- move 67 --
+cups: 4, 8, 3, 1, 2, 7...
+pick up: 9, 5, 6
+Destination: 3
+
+-- move 68 --
+cups: 8, 6, 1, 2, 7, 4...
+pick up: 3, 9, 5
+Destination: 7
+
+-- move 69 --
+cups: 6, 3, 9, 5, 4, 8...
+pick up: 1, 2, 7
+Destination: 5
+
+-- move 70 --
+cups: 3, 2, 7, 4, 8, 6...
+pick up: 9, 5, 1
+Destination: 2
+
+-- move 71 --
+cups: 2, 7, 4, 8, 6, 3...
+pick up: 9, 5, 1
+Destination: 8
+
+-- move 72 --
+cups: 7, 5, 1, 6, 3, 2...
+pick up: 4, 8, 9
+Destination: 6
+
+-- move 73 --
+cups: 5, 8, 9, 3, 2, 7...
+pick up: 1, 6, 4
+Destination: 3
+
+-- move 74 --
+cups: 8, 6, 4, 2, 7, 5...
+pick up: 9, 3, 1
+Destination: 7
+
+-- move 75 --
+cups: 6, 9, 3, 1, 5, 8...
+pick up: 4, 2, 7
+Destination: 5
+
+-- move 76 --
+cups: 9, 4, 2, 7, 8, 6...
+pick up: 3, 1, 5
+Destination: 8
+
+-- move 77 --
+cups: 4, 3, 1, 5, 6, 9...
+pick up: 2, 7, 8
+Destination: 3
+
+-- move 78 --
+cups: 3, 1, 5, 6, 9, 4...
+pick up: 2, 7, 8
+Destination: 1
+
+-- move 79 --
+cups: 1, 5, 6, 9, 4, 3...
+pick up: 2, 7, 8
+Destination: 9
+
+-- move 80 --
+cups: 5, 7, 8, 4, 3, 1...
+pick up: 6, 9, 2
+Destination: 4
+
+-- move 81 --
+cups: 7, 9, 2, 3, 1, 5...
+pick up: 8, 4, 6
+Destination: 5
+
+-- move 82 --
+cups: 9, 5, 8, 4, 6, 7...
+pick up: 2, 3, 1
+Destination: 8
+
+-- move 83 --
+cups: 5, 1, 4, 6, 7, 9...
+pick up: 8, 2, 3
+Destination: 4
+
+-- move 84 --
+cups: 1, 3, 6, 7, 9, 5...
+pick up: 4, 8, 2
+Destination: 9
+
+-- move 85 --
+cups: 3, 4, 8, 2, 5, 1...
+pick up: 6, 7, 9
+Destination: 2
+
+-- move 86 --
+cups: 4, 7, 9, 5, 1, 3...
+pick up: 8, 2, 6
+Destination: 3
+
+-- move 87 --
+cups: 7, 3, 8, 2, 6, 4...
+pick up: 9, 5, 1
+Destination: 6
+
+-- move 88 --
+cups: 3, 9, 5, 1, 4, 7...
+pick up: 8, 2, 6
+Destination: 1
+
+-- move 89 --
+cups: 9, 2, 6, 4, 7, 3...
+pick up: 5, 1, 8
+Destination: 7
+
+-- move 90 --
+cups: 2, 5, 1, 8, 3, 9...
+pick up: 6, 4, 7
+Destination: 1
+
+-- move 91 --
+cups: 5, 7, 8, 3, 9, 2...
+pick up: 1, 6, 4
+Destination: 3
+
+-- move 92 --
+cups: 7, 6, 4, 9, 2, 5...
+pick up: 8, 3, 1
+Destination: 6
+
+-- move 93 --
+cups: 6, 4, 9, 2, 5, 7...
+pick up: 8, 3, 1
+Destination: 5
+
+-- move 94 --
+cups: 4, 8, 3, 1, 7, 6...
+pick up: 9, 2, 5
+Destination: 3
+
+-- move 95 --
+cups: 8, 5, 1, 7, 6, 4...
+pick up: 3, 9, 2
+Destination: 7
+
+-- move 96 --
+cups: 5, 9, 2, 6, 4, 8...
+pick up: 1, 7, 3
+Destination: 4
+
+-- move 97 --
+cups: 9, 1, 7, 3, 8, 5...
+pick up: 2, 6, 4
+Destination: 8
+
+-- move 98 --
+cups: 1, 2, 6, 4, 5, 9...
+pick up: 7, 3, 8
+Destination: 9
+
+-- move 99 --
+cups: 2, 9, 7, 3, 8, 1...
+pick up: 6, 4, 5
+Destination: 1
+
+-- move 100 --
+cups: 9, 1, 6, 4, 5, 2...
+pick up: 7, 3, 8
+Destination: 6
+
+-- final --
+cups: 1, 6, 7, 3, 8, 4, 5, 2, 9...
+67384529
+
+*** 643719258 with 100 moves ***
+-- move 1 --
+cups: 6, 1, 9, 2, 5, 8...
+pick up: 4, 3, 7
+Destination: 5
+
+-- move 2 --
+cups: 1, 4, 3, 7, 8, 6...
+pick up: 9, 2, 5
+Destination: 8
+
+-- move 3 --
+cups: 4, 9, 2, 5, 6, 1...
+pick up: 3, 7, 8
+Destination: 2
+
+-- move 4 --
+cups: 9, 8, 5, 6, 1, 4...
+pick up: 2, 3, 7
+Destination: 8
+
+-- move 5 --
+cups: 8, 5, 6, 1, 4, 9...
+pick up: 2, 3, 7
+Destination: 6
+
+-- move 6 --
+cups: 5, 7, 1, 4, 9, 8...
+pick up: 6, 2, 3
+Destination: 4
+
+-- move 7 --
+cups: 7, 2, 3, 9, 8, 5...
+pick up: 1, 4, 6
+Destination: 5
+
+-- move 8 --
+cups: 2, 5, 1, 4, 6, 7...
+pick up: 3, 9, 8
+Destination: 1
+
+-- move 9 --
+cups: 5, 8, 4, 6, 7, 2...
+pick up: 1, 3, 9
+Destination: 4
+
+-- move 10 --
+cups: 8, 9, 6, 7, 2, 5...
+pick up: 4, 1, 3
+Destination: 7
+
+-- move 11 --
+cups: 9, 1, 3, 2, 5, 8...
+pick up: 6, 7, 4
+Destination: 8
+
+-- move 12 --
+cups: 1, 8, 6, 7, 4, 9...
+pick up: 3, 2, 5
+Destination: 9
+
+-- move 13 --
+cups: 8, 9, 3, 2, 5, 1...
+pick up: 6, 7, 4
+Destination: 5
+
+-- move 14 --
+cups: 9, 6, 7, 4, 1, 8...
+pick up: 3, 2, 5
+Destination: 8
+
+-- move 15 --
+cups: 6, 8, 3, 2, 5, 9...
+pick up: 7, 4, 1
+Destination: 5
+
+-- move 16 --
+cups: 8, 7, 4, 1, 9, 6...
+pick up: 3, 2, 5
+Destination: 7
+
+-- move 17 --
+cups: 7, 4, 1, 9, 6, 8...
+pick up: 3, 2, 5
+Destination: 6
+
+-- move 18 --
+cups: 4, 3, 2, 5, 8, 7...
+pick up: 1, 9, 6
+Destination: 3
+
+-- move 19 --
+cups: 3, 2, 5, 8, 7, 4...
+pick up: 1, 9, 6
+Destination: 2
+
+-- move 20 --
+cups: 2, 5, 8, 7, 4, 3...
+pick up: 1, 9, 6
+Destination: 8
+
+-- move 21 --
+cups: 5, 6, 7, 4, 3, 2...
+pick up: 8, 1, 9
+Destination: 4
+
+-- move 22 --
+cups: 6, 1, 9, 3, 2, 5...
+pick up: 7, 4, 8
+Destination: 5
+
+-- move 23 --
+cups: 1, 5, 7, 4, 8, 6...
+pick up: 9, 3, 2
+Destination: 8
+
+-- move 24 --
+cups: 5, 9, 3, 2, 6, 1...
+pick up: 7, 4, 8
+Destination: 3
+
+-- move 25 --
+cups: 9, 8, 2, 6, 1, 5...
+pick up: 3, 7, 4
+Destination: 8
+
+-- move 26 --
+cups: 8, 2, 6, 1, 5, 9...
+pick up: 3, 7, 4
+Destination: 6
+
+-- move 27 --
+cups: 2, 4, 1, 5, 9, 8...
+pick up: 6, 3, 7
+Destination: 1
+
+-- move 28 --
+cups: 4, 7, 5, 9, 8, 2...
+pick up: 1, 6, 3
+Destination: 2
+
+-- move 29 --
+cups: 7, 2, 1, 6, 3, 4...
+pick up: 5, 9, 8
+Destination: 6
+
+-- move 30 --
+cups: 2, 9, 8, 3, 4, 7...
+pick up: 1, 6, 5
+Destination: 9
+
+-- move 31 --
+cups: 9, 8, 3, 4, 7, 2...
+pick up: 1, 6, 5
+Destination: 8
+
+-- move 32 --
+cups: 8, 3, 4, 7, 2, 9...
+pick up: 1, 6, 5
+Destination: 7
+
+-- move 33 --
+cups: 3, 6, 5, 2, 9, 8...
+pick up: 4, 7, 1
+Destination: 2
+
+-- move 34 --
+cups: 6, 7, 1, 9, 8, 3...
+pick up: 5, 2, 4
+Destination: 3
+
+-- move 35 --
+cups: 7, 3, 5, 2, 4, 6...
+pick up: 1, 9, 8
+Destination: 6
+
+-- move 36 --
+cups: 3, 6, 1, 9, 8, 7...
+pick up: 5, 2, 4
+Destination: 1
+
+-- move 37 --
+cups: 6, 4, 9, 8, 7, 3...
+pick up: 1, 5, 2
+Destination: 4
+
+-- move 38 --
+cups: 4, 9, 8, 7, 3, 6...
+pick up: 1, 5, 2
+Destination: 3
+
+-- move 39 --
+cups: 9, 1, 5, 2, 6, 4...
+pick up: 8, 7, 3
+Destination: 6
+
+-- move 40 --
+cups: 1, 8, 7, 3, 4, 9...
+pick up: 5, 2, 6
+Destination: 9
+
+-- move 41 --
+cups: 8, 9, 5, 2, 6, 1...
+pick up: 7, 3, 4
+Destination: 6
+
+-- move 42 --
+cups: 9, 7, 3, 4, 1, 8...
+pick up: 5, 2, 6
+Destination: 8
+
+-- move 43 --
+cups: 7, 8, 5, 2, 6, 9...
+pick up: 3, 4, 1
+Destination: 6
+
+-- move 44 --
+cups: 8, 3, 4, 1, 9, 7...
+pick up: 5, 2, 6
+Destination: 7
+
+-- move 45 --
+cups: 3, 7, 5, 2, 6, 8...
+pick up: 4, 1, 9
+Destination: 2
+
+-- move 46 --
+cups: 7, 1, 9, 6, 8, 3...
+pick up: 5, 2, 4
+Destination: 6
+
+-- move 47 --
+cups: 1, 2, 4, 8, 3, 7...
+pick up: 9, 6, 5
+Destination: 8
+
+-- move 48 --
+cups: 2, 6, 5, 3, 7, 1...
+pick up: 4, 8, 9
+Destination: 1
+
+-- move 49 --
+cups: 6, 1, 4, 8, 9, 2...
+pick up: 5, 3, 7
+Destination: 4
+
+-- move 50 --
+cups: 1, 7, 8, 9, 2, 6...
+pick up: 4, 5, 3
+Destination: 9
+
+-- move 51 --
+cups: 7, 5, 3, 2, 6, 1...
+pick up: 8, 9, 4
+Destination: 6
+
+-- move 52 --
+cups: 5, 8, 9, 4, 1, 7...
+pick up: 3, 2, 6
+Destination: 4
+
+-- move 53 --
+cups: 8, 2, 6, 1, 7, 5...
+pick up: 9, 4, 3
+Destination: 7
+
+-- move 54 --
+cups: 2, 9, 4, 3, 5, 8...
+pick up: 6, 1, 7
+Destination: 9
+
+-- move 55 --
+cups: 9, 4, 3, 5, 8, 2...
+pick up: 6, 1, 7
+Destination: 8
+
+-- move 56 --
+cups: 4, 6, 1, 7, 2, 9...
+pick up: 3, 5, 8
+Destination: 2
+
+-- move 57 --
+cups: 6, 3, 5, 8, 9, 4...
+pick up: 1, 7, 2
+Destination: 5
+
+-- move 58 --
+cups: 3, 2, 8, 9, 4, 6...
+pick up: 5, 1, 7
+Destination: 2
+
+-- move 59 --
+cups: 2, 8, 9, 4, 6, 3...
+pick up: 5, 1, 7
+Destination: 9
+
+-- move 60 --
+cups: 8, 7, 4, 6, 3, 2...
+pick up: 9, 5, 1
+Destination: 7
+
+-- move 61 --
+cups: 7, 4, 6, 3, 2, 8...
+pick up: 9, 5, 1
+Destination: 6
+
+-- move 62 --
+cups: 4, 1, 3, 2, 8, 7...
+pick up: 6, 9, 5
+Destination: 3
+
+-- move 63 --
+cups: 1, 5, 2, 8, 7, 4...
+pick up: 3, 6, 9
+Destination: 8
+
+-- move 64 --
+cups: 5, 6, 9, 7, 4, 1...
+pick up: 2, 8, 3
+Destination: 4
+
+-- move 65 --
+cups: 6, 2, 8, 3, 1, 5...
+pick up: 9, 7, 4
+Destination: 5
+
+-- move 66 --
+cups: 2, 5, 9, 7, 4, 6...
+pick up: 8, 3, 1
+Destination: 9
+
+-- move 67 --
+cups: 5, 1, 7, 4, 6, 2...
+pick up: 9, 8, 3
+Destination: 4
+
+-- move 68 --
+cups: 1, 8, 3, 6, 2, 5...
+pick up: 7, 4, 9
+Destination: 8
+
+-- move 69 --
+cups: 8, 3, 6, 2, 5, 1...
+pick up: 7, 4, 9
+Destination: 6
+
+-- move 70 --
+cups: 3, 9, 2, 5, 1, 8...
+pick up: 6, 7, 4
+Destination: 2
+
+-- move 71 --
+cups: 9, 4, 5, 1, 8, 3...
+pick up: 2, 6, 7
+Destination: 8
+
+-- move 72 --
+cups: 4, 2, 6, 7, 3, 9...
+pick up: 5, 1, 8
+Destination: 3
+
+-- move 73 --
+cups: 2, 5, 1, 8, 9, 4...
+pick up: 6, 7, 3
+Destination: 1
+
+-- move 74 --
+cups: 5, 3, 8, 9, 4, 2...
+pick up: 1, 6, 7
+Destination: 4
+
+-- move 75 --
+cups: 3, 1, 6, 7, 2, 5...
+pick up: 8, 9, 4
+Destination: 2
+
+-- move 76 --
+cups: 1, 8, 9, 4, 5, 3...
+pick up: 6, 7, 2
+Destination: 9
+
+-- move 77 --
+cups: 8, 2, 4, 5, 3, 1...
+pick up: 9, 6, 7
+Destination: 5
+
+-- move 78 --
+cups: 2, 6, 7, 3, 1, 8...
+pick up: 4, 5, 9
+Destination: 1
+
+-- move 79 --
+cups: 6, 4, 5, 9, 8, 2...
+pick up: 7, 3, 1
+Destination: 5
+
+-- move 80 --
+cups: 4, 1, 9, 8, 2, 6...
+pick up: 5, 7, 3
+Destination: 2
+
+-- move 81 --
+cups: 1, 5, 7, 3, 6, 4...
+pick up: 9, 8, 2
+Destination: 7
+
+-- move 82 --
+cups: 5, 2, 3, 6, 4, 1...
+pick up: 7, 9, 8
+Destination: 4
+
+-- move 83 --
+cups: 2, 7, 9, 8, 1, 5...
+pick up: 3, 6, 4
+Destination: 1
+
+-- move 84 --
+cups: 7, 3, 6, 4, 5, 2...
+pick up: 9, 8, 1
+Destination: 6
+
+-- move 85 --
+cups: 3, 1, 4, 5, 2, 7...
+pick up: 6, 9, 8
+Destination: 2
+
+-- move 86 --
+cups: 1, 6, 9, 8, 7, 3...
+pick up: 4, 5, 2
+Destination: 9
+
+-- move 87 --
+cups: 6, 2, 8, 7, 3, 1...
+pick up: 9, 4, 5
+Destination: 3
+
+-- move 88 --
+cups: 2, 9, 4, 5, 1, 6...
+pick up: 8, 7, 3
+Destination: 1
+
+-- move 89 --
+cups: 9, 8, 7, 3, 6, 2...
+pick up: 4, 5, 1
+Destination: 8
+
+-- move 90 --
+cups: 8, 7, 3, 6, 2, 9...
+pick up: 4, 5, 1
+Destination: 7
+
+-- move 91 --
+cups: 7, 3, 6, 2, 9, 8...
+pick up: 4, 5, 1
+Destination: 6
+
+-- move 92 --
+cups: 3, 1, 2, 9, 8, 7...
+pick up: 6, 4, 5
+Destination: 2
+
+-- move 93 --
+cups: 1, 5, 9, 8, 7, 3...
+pick up: 2, 6, 4
+Destination: 9
+
+-- move 94 --
+cups: 5, 4, 8, 7, 3, 1...
+pick up: 9, 2, 6
+Destination: 4
+
+-- move 95 --
+cups: 4, 8, 7, 3, 1, 5...
+pick up: 9, 2, 6
+Destination: 3
+
+-- move 96 --
+cups: 8, 2, 6, 1, 5, 4...
+pick up: 7, 3, 9
+Destination: 6
+
+-- move 97 --
+cups: 2, 9, 1, 5, 4, 8...
+pick up: 6, 7, 3
+Destination: 1
+
+-- move 98 --
+cups: 9, 3, 5, 4, 8, 2...
+pick up: 1, 6, 7
+Destination: 8
+
+-- move 99 --
+cups: 3, 1, 6, 7, 2, 9...
+pick up: 5, 4, 8
+Destination: 2
+
+-- move 100 --
+cups: 1, 5, 4, 8, 9, 3...
+pick up: 6, 7, 2
+Destination: 9
+
+-- final --
+cups: 5, 4, 8, 9, 6, 7, 2, 3, 1...
+54896723
+
+*** 389125467 with 10000000 moves ***
+-- move 1 --
+-- move 417848 --
+-- move 817858 --
+-- move 1182568 --
+-- move 1530289 --
+-- move 1868285 --
+-- move 2204407 --
+-- move 2547963 --
+-- move 2902014 --
+-- move 3237435 --
+-- move 3570436 --
+-- move 3903678 --
+-- move 4249078 --
+-- move 4572651 --
+-- move 4889407 --
+-- move 5211798 --
+-- move 5525528 --
+-- move 5823614 --
+-- move 6114041 --
+-- move 6394374 --
+-- move 6662418 --
+-- move 6920230 --
+-- move 7168529 --
+-- move 7413812 --
+-- move 7646584 --
+-- move 7876425 --
+-- move 8104032 --
+-- move 8331588 --
+-- move 8551423 --
+-- move 8768948 --
+-- move 8983500 --
+-- move 9196135 --
+-- move 9411390 --
+-- move 9624481 --
+-- move 9835310 --
+-- final --
+934001 * 159792 = 149245887792
+
+*** 643719258 with 10000000 moves ***
+-- move 1 --
+-- move 403732 --
+-- move 793944 --
+-- move 1148429 --
+-- move 1471489 --
+-- move 1790773 --
+-- move 2111938 --
+-- move 2441703 --
+-- move 2756296 --
+-- move 3071609 --
+-- move 3396088 --
+-- move 3716303 --
+-- move 4035657 --
+-- move 4357932 --
+-- move 4686348 --
+-- move 4997737 --
+-- move 5296857 --
+-- move 5593681 --
+-- move 5869706 --
+-- move 6140483 --
+-- move 6397134 --
+-- move 6639368 --
+-- move 6873874 --
+-- move 7101105 --
+-- move 7332761 --
+-- move 7569754 --
+-- move 7785834 --
+-- move 7999653 --
+-- move 8208247 --
+-- move 8421901 --
+-- move 8626868 --
+-- move 8834557 --
+-- move 9043910 --
+-- move 9259773 --
+-- move 9474982 --
+-- move 9691936 --
+-- move 9910273 --
+-- final --
+245152 * 596792 = 146304752384
+
