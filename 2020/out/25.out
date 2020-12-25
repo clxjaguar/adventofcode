@@ -1,0 +1,12 @@
+*** input/25.input.test ***
+cardPublicKey: 5764801
+cardSecretLoopSize: 8
+doorPublicKey: 17807724
+doorSecretLoopSize: 11
+14897079
+*** input/25.input ***
+cardPublicKey: 6929599
+cardSecretLoopSize: 15210194
+doorPublicKey: 2448427
+doorSecretLoopSize: 8652834
+16933668
