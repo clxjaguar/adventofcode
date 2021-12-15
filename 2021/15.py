@@ -1,5 +1,6 @@
 # cLx 2021 day 15
 
+import heapq
 import sys
 import time
 
@@ -14,7 +15,7 @@ class Node():
 		return ((x+1, y), (x, y+1), (x, y-1), (x-1, y))
 
 	def __lt__(self, otherNode):
-		return self.heuristics > otherNode.heuristics
+		return self.heuristics < otherNode.heuristics
 
 	def __repr__(self):
 		return "(%g, %g): C=%g H=%g" % (self.coords[0], self.coords[1], self.cost, self.heuristics)
@@ -68,12 +69,11 @@ def solve(filename, part2=False, refreshInterval=-1):
 	def pathFinder(field, target, start):
 		lastTime = time.time()
 		closedCoords = set()
-		openList = []
-		openList.append(start)
+		openList = [start]
+		heapq.heapify(openList)
 
 		while(len(openList)):
-			openList.sort()
-			u = openList.pop()
+			u = heapq.heappop(openList)
 
 			if time.time() > lastTime + refreshInterval:
 				lastTime = time.time()
@@ -91,7 +91,7 @@ def solve(filename, part2=False, refreshInterval=-1):
 						if node.cost < u.cost: continue
 				v = Node(coords, cost=u.cost + field[coords])
 				v.heuristics = v.cost + abs(v.coords[0] - target.coords[0]) + abs(v.coords[1] - target.coords[1])
-				openList.append(v)
+				heapq.heappush(openList, v)
 
 			closedCoords.add(u.coords)
 
