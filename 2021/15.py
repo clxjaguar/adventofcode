@@ -4,6 +4,8 @@ import heapq
 import sys
 import time
 
+VISUALIZATION = False
+
 class Node():
 	def __init__(self, coords, cost=0):
 		self.coords = coords
@@ -40,7 +42,9 @@ def solve(filename, part2=False, refreshInterval=-1):
 						field[(i*width+x, j*height+y)] = val
 		width*=5; height*=5
 
-	def show(field, currentCoords=None, highlight=set(), visited=set(), clearScreen=False):
+	startTime = time.time()
+
+	def show(field, currentCoords=None, opened=set(), closed=set(), clearScreen=False):
 		if clearScreen:
 			sys.stdout.write("\x1B[2J") # clear screen
 		sys.stdout.write("\x1B[H") # move cursor
@@ -48,15 +52,15 @@ def solve(filename, part2=False, refreshInterval=-1):
 			for x in range(width):
 				if (x, y) == currentCoords:
 					sys.stdout.write("\x1B[97m\x1B[42m")
+				elif (x, y) in closed:
+					sys.stdout.write("\x1B[97m\x1B[100m")
+
+				elif (x, y) in opened:
+					sys.stdout.write("\x1B[91m\x1B[46m")
 				else:
-					if (x, y) in highlight: sys.stdout.write("\x1B[91m")
-					else:                   sys.stdout.write("\x1B[97m")
-					if (x, y) in visited:   sys.stdout.write("\x1B[100m")
-					else:                   sys.stdout.write("\x1B[44m")
-				try:
-					sys.stdout.write("%X" % field[(x, y)])
-				except:
-					sys.stdout.write(".")
+					sys.stdout.write("\x1B[97m\x1B[44m")
+
+				sys.stdout.write("%X" % field[(x, y)])
 
 			sys.stdout.write("\x1B[0m\n")
 		sys.stdout.write("\n")
@@ -64,42 +68,46 @@ def solve(filename, part2=False, refreshInterval=-1):
 	start = Node((0, 0))
 	target = Node((width-1, height-1))
 
-	show(field, clearScreen=True)
+	if VISUALIZATION:
+		show(field, clearScreen=True)
 
 	def pathFinder(field, target, start):
-		lastTime = time.time()
+		lastTime = 0
 		closedCoords = set()
+		openedListCoords = set()
 		openList = [start]
 		heapq.heapify(openList)
 
 		while(len(openList)):
 			u = heapq.heappop(openList)
 
-			if time.time() > lastTime + refreshInterval:
-				lastTime = time.time()
-				show(field, u.coords, [n.coords for n in openList], closedCoords)
-				time.sleep(0.02)
+			if VISUALIZATION:
+				if time.time() > lastTime + refreshInterval:
+					show(field, u.coords, openedListCoords, closedCoords)
+					lastTime = time.time()
+					time.sleep(0.01)
 
 			if u.coords == target.coords:
-				print(u.cost)
+				if VISUALIZATION:
+					show(field, u.coords, openedListCoords, closedCoords)
 				return u.cost
 			for coords in u.neighborsCoords():
-				if coords not in field: continue
-				if coords in closedCoords: continue
-				for node in openList:
-					if node.coords == coords:
-						if node.cost < u.cost: continue
+				if not(0 <= coords[0] < width and 0 <= coords[1] < height) or coords in closedCoords: continue
 				v = Node(coords, cost=u.cost + field[coords])
 				v.heuristics = v.cost + abs(v.coords[0] - target.coords[0]) + abs(v.coords[1] - target.coords[1])
 				heapq.heappush(openList, v)
+				if VISUALIZATION:
+					openedListCoords.add(v.coords)
 
 			closedCoords.add(u.coords)
 
 	result = pathFinder(field, target, start)
+	print("%s (part %d): %d (%.4fs)" % (filename, 2 if part2 else 1, result, time.time() - startTime))
+	time.sleep(1)
 	return result
 
 
 assert solve('input/15.input.test')                                  ==   40
-assert solve('input/15.input'     , refreshInterval=.50)             ==  410
-assert solve('input/15.input.test', refreshInterval=.07, part2=True) ==  315
-assert solve('input/15.input',      refreshInterval=600, part2=True) == 2809
+assert solve('input/15.input'     , refreshInterval=.03)             ==  410
+assert solve('input/15.input.test', refreshInterval=.02, part2=True) ==  315
+assert solve('input/15.input',      refreshInterval=2,   part2=True) == 2809
