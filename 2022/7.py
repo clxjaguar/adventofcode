@@ -9,7 +9,7 @@ class Directory():
 			self.path = '/' + name
 		else:
 			self.path = parent.path + '/' + name
-		self.path
+
 		self.parent = parent
 		self.files = {}
 		self.subDirectories = {}
@@ -20,7 +20,6 @@ class Directory():
 
 	def newDir(self, name):
 		self.subDirectories[name] = Directory(self, name)
-		return self.subDirectories[name]
 
 	def getSize(self):
 		global sizeCount
