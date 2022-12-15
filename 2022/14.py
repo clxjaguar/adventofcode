@@ -65,7 +65,12 @@ def solve(filename, assertPart1=None, assertPart2=None):
 	printField(field, xmin, xmax, min(ymin, 0), ymax)
 
 	print("%s (part 1): %d" % (filename, part1))
+	if assertPart1 != None:
+		assert part1 == assertPart1
+
 	print("%s (part 2): %d" % (filename, part2))
+	if assertPart2 != None:
+		assert part2 == assertPart2
 
 solve('input/14.input.test', assertPart1=24,  assertPart2=93)
 solve('input/14.input',      assertPart1=799, assertPart2=29076)
